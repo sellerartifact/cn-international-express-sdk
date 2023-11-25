@@ -1,6 +1,50 @@
 {
   "folders": [
     {
+      "name": "jiehang",
+      "path": "packages/jiehang/"
+    },
+    {
+      "name": "hua_yu_tong",
+      "path": "packages/hua_yu_tong/"
+    },
+    {
+      "name": "hua_han",
+      "path": "packages/hua_han/"
+    },
+    {
+      "name": "cne",
+      "path": "packages/cne/"
+    },
+    {
+      "name": "cainiao",
+      "path": "packages/cainiao/"
+    },
+    {
+      "name": "yanwen",
+      "path": "packages/yanwen/"
+    },
+    {
+      "name": "zhxt",
+      "path": "packages/zhxt/"
+    },
+    {
+      "name": "fpx",
+      "path": "packages/fpx/"
+    },
+    {
+      "name": "kts",
+      "path": "packages/kts/"
+    },
+    {
+      "name": "yuntu",
+      "path": "packages/yuntu/"
+    },
+    {
+      "name": "santai",
+      "path": "packages/santai/"
+    },
+    {
       "name": "monorepo",
       "path": "."
     }
@@ -23,7 +67,10 @@
       "**/node_modules": true
     },
     //
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
