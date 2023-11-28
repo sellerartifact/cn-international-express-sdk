@@ -1,4 +1,5 @@
 import request from 'request';
+import { Recordable } from '../global';
 
 export function myRequest<T>(
   json: request.Options,
