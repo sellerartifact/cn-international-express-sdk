@@ -1,5 +1,5 @@
 {
-  "name": "huaHan",
+  "name": "@cn-international-express-sdk/hua_han",
   "version": "0.1.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",

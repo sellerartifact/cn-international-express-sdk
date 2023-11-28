@@ -1,5 +1,5 @@
 {
-  "name": "cainiao",
+  "name": "@cn-international-express-sdk/cainiao",
   "version": "0.1.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",

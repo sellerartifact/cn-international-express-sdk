@@ -1,5 +1,5 @@
 {
-  "name": "cne",
+  "name": "@cn-international-express-sdk/cne",
   "version": "0.1.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "huaYuTong",
+  "name": "@cn-international-express-sdk/hua_yu_tong",
   "version": "0.1.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
