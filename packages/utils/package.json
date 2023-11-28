@@ -13,7 +13,10 @@
     "upgrade": "modern upgrade"
   },
   "dependencies": {
-    "request": "^2.88.2"
+    "fast-xml-parser": "^4.3.2",
+    "request": "^2.88.2",
+    "soap": "^1.0.0",
+    "strong-soap": "^3.5.6"
   },
   "devDependencies": {
     "@modern-js/eslint-config": "2.41.0",
