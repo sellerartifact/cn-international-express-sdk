@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "utils",
+      "path": "packages/utils/"
+    },
+    {
       "name": "jiehang",
       "path": "packages/jiehang/"
     },
