@@ -220,6 +220,10 @@ importers:
         version: registry.npmmirror.com/typescript@5.0.4
 
   packages/santai:
+    dependencies:
+      '@cn-international-express-sdk/utils':
+        specifier: workspace:*
+        version: link:../utils
     devDependencies:
       '@modern-js/eslint-config':
         specifier: 2.41.0
@@ -310,7 +314,7 @@ importers:
   packages/yuntu:
     dependencies:
       '@cn-international-express-sdk/utils':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../utils
     devDependencies:
       '@modern-js/eslint-config':
