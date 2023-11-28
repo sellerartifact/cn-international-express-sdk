@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "cn-international-express-sdk",
+      "path": "packages/cn-international-express-sdk/"
+    },
+    {
       "name": "utils",
       "path": "packages/utils/"
     },

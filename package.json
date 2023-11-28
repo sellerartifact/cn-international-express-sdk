@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "monorepo",
+  "name": "cn-international-express-sdk",
   "scripts": {
     "new": "modern new",
     "reset": "modern clear",
