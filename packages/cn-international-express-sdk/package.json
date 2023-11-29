@@ -13,6 +13,7 @@
     "upgrade": "modern upgrade"
   },
   "dependencies": {
+    "@cn-international-express-sdk/cainiao": "workspace:*",
     "@cn-international-express-sdk/santai": "workspace:*",
     "@cn-international-express-sdk/yanwen": "workspace:*",
     "@cn-international-express-sdk/yuntu": "workspace:*",
