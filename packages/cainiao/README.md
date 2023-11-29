@@ -2,6 +2,18 @@
 
 ## 快速对接菜鸟国际物流
 
+### Install
+
+```
+pnpm install --save cn-international-express-sdk
+
+OR
+
+pnpm install --save cn-international-express-sdk/cainiao
+```
+
+### Usage
+
 ```bash
 import { CaiNiao } from "cn-international-express-sdk";
 
@@ -27,7 +39,7 @@ const cainiao = new CaiNiao({
 
 // create order
 
-await cainiao.genRequest<AddOrderRes>("cnge.order.create", sendData)()
+await cainiao.genRequest<AddOrderRes>("cnge.order.create", sendData)
 
 // get ship methods
 
