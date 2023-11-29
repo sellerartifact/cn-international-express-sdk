@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/yuntu
 
+## 2.0.0
+
+### Major Changes
+
+- fa49eed: add zhxt-sdk and chore yuntu-sdk
+
 ## 1.0.0
 
 ### Major Changes
