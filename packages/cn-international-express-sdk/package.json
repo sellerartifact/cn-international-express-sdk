@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@cn-international-express-sdk/santai": "workspace:*",
+    "@cn-international-express-sdk/yanwen": "workspace:*",
     "@cn-international-express-sdk/yuntu": "workspace:*",
     "@cn-international-express-sdk/zhxt": "workspace:^"
   },
