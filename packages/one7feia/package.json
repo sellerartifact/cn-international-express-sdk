@@ -1,6 +1,6 @@
 {
-  "name": "cn-international-express-sdk",
-  "version": "3.0.0",
+  "name": "@cn-international-express-sdk/one7feia",
+  "version": "0.1.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -13,13 +13,7 @@
     "upgrade": "modern upgrade"
   },
   "dependencies": {
-    "@cn-international-express-sdk/cainiao": "workspace:*",
-    "@cn-international-express-sdk/jiehang": "workspace:*",
-    "@cn-international-express-sdk/one7feia": "workspace:*",
-    "@cn-international-express-sdk/santai": "workspace:*",
-    "@cn-international-express-sdk/yanwen": "workspace:*",
-    "@cn-international-express-sdk/yuntu": "workspace:*",
-    "@cn-international-express-sdk/zhxt": "workspace:^"
+    "@cn-international-express-sdk/utils": "workspace:*"
   },
   "devDependencies": {
     "@modern-js/eslint-config": "2.41.0",

@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "one7feia",
+      "path": "packages/one7feia/"
+    },
+    {
       "name": "cn-international-express-sdk",
       "path": "packages/cn-international-express-sdk/"
     },
