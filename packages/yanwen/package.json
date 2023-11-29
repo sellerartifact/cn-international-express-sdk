@@ -12,7 +12,9 @@
     "new": "modern new",
     "upgrade": "modern upgrade"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@cn-international-express-sdk/utils": "workspace:*"
+  },
   "peerDependencies": {},
   "devDependencies": {
     "@modern-js/module-tools": "2.41.0",
