@@ -1,5 +1,12 @@
 # cn-international-express-sdk
 
+## 2.0.1
+
+### Patch Changes
+
+- Updated dependencies [e41723e]
+  - @cn-international-express-sdk/cainiao@2.0.0
+
 ## 2.0.0
 
 ### Major Changes

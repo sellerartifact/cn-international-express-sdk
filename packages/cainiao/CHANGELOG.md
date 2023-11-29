@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/cainiao
 
+## 2.0.0
+
+### Major Changes
+
+- e41723e: update readme
+
 ## 1.0.0
 
 ### Major Changes
