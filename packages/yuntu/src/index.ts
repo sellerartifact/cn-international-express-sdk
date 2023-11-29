@@ -11,7 +11,7 @@ export interface YuntuConfig {
 }
 
 export class Yuntu {
-  private config: YuntuConfig;
+  public config: YuntuConfig;
 
   constructor(config: YuntuConfig) {
     this.config = config;
