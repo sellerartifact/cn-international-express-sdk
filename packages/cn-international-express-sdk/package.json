@@ -1,6 +1,6 @@
 {
   "name": "cn-international-express-sdk",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@cn-international-express-sdk/santai": "workspace:*",
-    "@cn-international-express-sdk/yuntu": "workspace:*"
+    "@cn-international-express-sdk/yuntu": "workspace:*",
+    "@cn-international-express-sdk/zhxt": "workspace:^"
   },
   "devDependencies": {
     "@modern-js/eslint-config": "2.41.0",
