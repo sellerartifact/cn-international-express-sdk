@@ -1,30 +1,36 @@
-# Modern.js Package
+# @cn-international-express-sdk/cainiao
 
-## Get Started
-
-Run and debug the module:
+## 快速对接菜鸟国际物流
 
 ```bash
-pnpm run dev
+import { CaiNiao } from "cn-international-express-sdk";
+
+OR
+
+import { CaiNiao } from "@cn-international-express-sdk/cainiao";
+
 ```
 
-Run test cases:
+For commonJS
+
+```
+const { CaiNiao } = require("@cn-international-express-sdk/cainiao");
+```
+
+Send a request to the API:
 
 ```bash
-pnpm run test
+const cainiao = new CaiNiao({
+  user_id: "123",
+  app_token: "456",
+});
+
+// create order
+
+await cainiao.genRequest<AddOrderRes>("cnge.order.create", sendData)()
+
+// get ship methods
+
+await cainiao.getShipTypes()
+
 ```
-
-Build the module for production:
-
-```bash
-pnpm run build
-```
-
-Enable optional features:
-
-```bash
-pnpm run new
-```
-
-
-For more information, see the [Modern.js Module documentation](https://modernjs.dev/module-tools/en).
