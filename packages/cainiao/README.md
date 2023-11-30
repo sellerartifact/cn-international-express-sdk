@@ -12,8 +12,6 @@ OR
 pnpm install --save cn-international-express-sdk/cainiao
 ```
 
-# `@cn-international-express-sdk/cainiao`
-
 ### Usage
 
 ```bash
