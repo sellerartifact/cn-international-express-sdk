@@ -1,5 +1,12 @@
 # cn-international-express-sdk
 
+## 3.0.1
+
+### Patch Changes
+
+- Updated dependencies [68bb60f]
+  - @cn-international-express-sdk/cainiao@3.0.0
+
 ## 3.0.0
 
 ### Major Changes

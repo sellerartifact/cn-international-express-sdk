@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/cainiao
 
+## 3.0.0
+
+### Major Changes
+
+- 68bb60f: rm repeat text
+
 ## 2.0.0
 
 ### Major Changes
