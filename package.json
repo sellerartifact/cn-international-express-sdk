@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "cn-international-express-sdk",
+  "license": "MIT",
   "scripts": {
     "new": "modern new",
     "reset": "modern clear",
