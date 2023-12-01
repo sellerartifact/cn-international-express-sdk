@@ -9,9 +9,9 @@
 | 燕文物流     | [@cn-international-express-sdk/yanwen](./packages/yanwen)           | ✅     |
 | 纵横迅通国际 | [@cn-international-express-sdk/zhxt](./packages/zhxt)               | ✅     |
 | 递一国际     | [@cn-international-express-sdk/cne](./packages/cne)                 | ✅     |
-| 递四方       | [@cn-international-express-sdk/fpx](./packages/fpx)                 | 🚧     |
-| 华翰物流     | [@cn-international-express-sdk/hua_han](./packages/hua_han)         | 🚧     |
-| 华羽通国际   | [@cn-international-express-sdk/hua_yu_tong](./packages/hua_yu_tong) | 🚧     |
+| 递四方       | [@cn-international-express-sdk/fpx](./packages/fpx)                 | ✅     |
+| 华翰物流     | [@cn-international-express-sdk/hua_han](./packages/hua_han)         | ✅     |
+| 华羽通国际   | [@cn-international-express-sdk/hua_yu_tong](./packages/hua_yu_tong) | ✅     |
 | 顺丰国际     | [@cn-international-express-sdk/kts](./packages/kts)                 | ✅     |
 | 17FEIA       | [@cn-international-express-sdk/one7feia](./packages/one7feia)       | ✅     |
 
