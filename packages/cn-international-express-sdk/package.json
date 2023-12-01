@@ -1,6 +1,6 @@
 {
   "name": "cn-international-express-sdk",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "@cn-international-express-sdk/cainiao": "workspace:*",
+    "@cn-international-express-sdk/cne": "workspace:*",
     "@cn-international-express-sdk/jiehang": "workspace:*",
+    "@cn-international-express-sdk/kts": "workspace:*",
     "@cn-international-express-sdk/one7feia": "workspace:*",
     "@cn-international-express-sdk/santai": "workspace:*",
     "@cn-international-express-sdk/yanwen": "workspace:*",

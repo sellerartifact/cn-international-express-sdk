@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/cainiao
 
+## 4.0.0
+
+### Major Changes
+
+- include kts-sdk fpx-sdk
+
 ## 3.0.0
 
 ### Major Changes

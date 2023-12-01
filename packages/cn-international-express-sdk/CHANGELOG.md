@@ -1,5 +1,17 @@
 # cn-international-express-sdk
 
+## 4.0.0
+
+### Major Changes
+
+- include kts-sdk fpx-sdk
+
+### Patch Changes
+
+- Updated dependencies
+  - @cn-international-express-sdk/cainiao@4.0.0
+  - @cn-international-express-sdk/kts@1.0.0
+
 ## 3.0.1
 
 ### Patch Changes
