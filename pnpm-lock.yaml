@@ -69,6 +69,15 @@ importers:
       '@cn-international-express-sdk/cne':
         specifier: workspace:*
         version: link:../cne
+      '@cn-international-express-sdk/fpx':
+        specifier: workspace:*
+        version: link:../fpx
+      '@cn-international-express-sdk/hua_han':
+        specifier: workspace:*
+        version: link:../hua_han
+      '@cn-international-express-sdk/hua_yu_tong':
+        specifier: workspace:*
+        version: link:../hua_yu_tong
       '@cn-international-express-sdk/jiehang':
         specifier: workspace:*
         version: link:../jiehang
@@ -148,6 +157,10 @@ importers:
         version: registry.npmmirror.com/typescript@5.0.4
 
   packages/fpx:
+    dependencies:
+      '@cn-international-express-sdk/utils':
+        specifier: workspace:*
+        version: link:../utils
     devDependencies:
       '@modern-js/eslint-config':
         specifier: 2.41.0
@@ -175,6 +188,10 @@ importers:
         version: registry.npmmirror.com/typescript@5.0.4
 
   packages/hua_han:
+    dependencies:
+      '@cn-international-express-sdk/utils':
+        specifier: workspace:*
+        version: link:../utils
     devDependencies:
       '@modern-js/eslint-config':
         specifier: 2.41.0
@@ -202,6 +219,10 @@ importers:
         version: registry.npmmirror.com/typescript@5.0.4
 
   packages/hua_yu_tong:
+    dependencies:
+      '@cn-international-express-sdk/utils':
+        specifier: workspace:*
+        version: link:../utils
     devDependencies:
       '@modern-js/eslint-config':
         specifier: 2.41.0

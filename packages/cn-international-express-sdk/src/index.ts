@@ -7,3 +7,6 @@ export * from '@cn-international-express-sdk/jiehang';
 export * from '@cn-international-express-sdk/one7feia';
 export * from '@cn-international-express-sdk/kts';
 export * from '@cn-international-express-sdk/cne';
+export * from '@cn-international-express-sdk/fpx';
+export * from '@cn-international-express-sdk/hua_han';
+export * from '@cn-international-express-sdk/hua_yu_tong';

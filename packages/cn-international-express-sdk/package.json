@@ -15,6 +15,9 @@
   "dependencies": {
     "@cn-international-express-sdk/cainiao": "workspace:*",
     "@cn-international-express-sdk/cne": "workspace:*",
+    "@cn-international-express-sdk/fpx": "workspace:*",
+    "@cn-international-express-sdk/hua_han": "workspace:*",
+    "@cn-international-express-sdk/hua_yu_tong": "workspace:*",
     "@cn-international-express-sdk/jiehang": "workspace:*",
     "@cn-international-express-sdk/kts": "workspace:*",
     "@cn-international-express-sdk/one7feia": "workspace:*",
