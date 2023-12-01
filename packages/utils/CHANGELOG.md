@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/utils
 
+## 3.0.0
+
+### Major Changes
+
+- sync version
+
 ## 2.0.0
 
 ### Major Changes

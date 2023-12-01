@@ -1,11 +1,18 @@
 {
   "name": "cn-international-express-sdk",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
   "license": "MIT",
-  "keywords": ["三态","云途","菜鸟国际","顺丰国际", "华翰物流", "燕文物流"],
+  "keywords": [
+    "三态",
+    "云途",
+    "菜鸟国际",
+    "顺丰国际",
+    "华翰物流",
+    "燕文物流"
+  ],
   "scripts": {
     "prepare": "modern build",
     "dev": "modern dev",

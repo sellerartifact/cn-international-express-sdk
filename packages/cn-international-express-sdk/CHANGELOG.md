@@ -1,5 +1,29 @@
 # cn-international-express-sdk
 
+## 5.0.0
+
+### Major Changes
+
+- sync version
+- 31b1384: update readme
+- bump version
+
+### Patch Changes
+
+- Updated dependencies
+  - @cn-international-express-sdk/cainiao@5.0.0
+  - @cn-international-express-sdk/cne@2.0.0
+  - @cn-international-express-sdk/fpx@2.0.0
+  - @cn-international-express-sdk/hua_han@1.0.0
+  - @cn-international-express-sdk/hua_yu_tong@1.0.0
+  - @cn-international-express-sdk/jiehang@2.0.0
+  - @cn-international-express-sdk/kts@2.0.0
+  - @cn-international-express-sdk/one7feia@1.0.0
+  - @cn-international-express-sdk/santai@2.0.0
+  - @cn-international-express-sdk/yanwen@2.0.0
+  - @cn-international-express-sdk/yuntu@3.0.0
+  - @cn-international-express-sdk/zhxt@2.0.0
+
 ## 4.0.0
 
 ### Major Changes

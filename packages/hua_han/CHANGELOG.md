@@ -1,6 +1,6 @@
-# @cn-international-express-sdk/cne
+# @cn-international-express-sdk/hua_han
 
-## 2.0.0
+## 1.0.0
 
 ### Major Changes
 
@@ -10,9 +10,3 @@
 
 - Updated dependencies
   - @cn-international-express-sdk/utils@3.0.0
-
-## 1.0.0
-
-### Major Changes
-
-- 2f736bc: Implement functions
