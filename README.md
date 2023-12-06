@@ -29,7 +29,7 @@
 pnpm install --save cn-international-express-sdk
 
 
-// 由于项目是采用 monorepo 的方式管理的，所以也可直接安装某个物流的SDK包
+// 由于项目是采用 monorepo 的方式管理的，所以也可直接安装单个物流的SDK包
 pnpm install --save @cn-international-express-sdk/santai
 pnpm install --save @cn-international-express-sdk/yuntu
 ```
