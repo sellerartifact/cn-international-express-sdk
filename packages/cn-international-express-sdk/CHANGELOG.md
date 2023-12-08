@@ -1,5 +1,14 @@
 # cn-international-express-sdk
 
+## 5.0.1
+
+### Patch Changes
+
+- Updated dependencies [4b1b4c2]
+- Updated dependencies [6652761]
+- Updated dependencies [4b1b4c2]
+  - @cn-international-express-sdk/wanb@1.0.0
+
 ## 5.0.0
 
 ### Major Changes
