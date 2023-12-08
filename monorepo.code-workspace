@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "wanb",
+      "path": "packages/wanb/"
+    },
+    {
       "name": "one7feia",
       "path": "packages/one7feia/"
     },

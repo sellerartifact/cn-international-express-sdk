@@ -16,8 +16,8 @@
     "@cn-international-express-sdk/utils": "workspace:^"
   },
   "devDependencies": {
-    "@modern-js/eslint-config": "2.41.0",
-    "@modern-js/module-tools": "2.41.0",
+    "@modern-js/eslint-config": "2.42.0",
+    "@modern-js/module-tools": "2.42.0",
     "@types/node": "~16.11.7",
     "husky": "~8.0.1",
     "lint-staged": "~13.1.0",
