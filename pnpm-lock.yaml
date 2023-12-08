@@ -417,6 +417,10 @@ importers:
         version: 5.0.4
 
   packages/wanb:
+    dependencies:
+      '@cn-international-express-sdk/utils':
+        specifier: workspace:*
+        version: link:../utils
     devDependencies:
       '@modern-js/eslint-config':
         specifier: 2.42.0
@@ -2739,7 +2743,7 @@ packages:
       '@formily/core': 2.3.0
       '@formily/reactive': 2.3.0
       '@formily/shared': 2.3.0
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: 5.0.4
     dev: true
 
   /@formily/path@2.3.0:
@@ -3294,7 +3298,7 @@ packages:
       tapable: 2.2.1
       terser: 5.19.2
       tsconfig-paths-webpack-plugin: 4.1.0
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: 5.0.4
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -4239,7 +4243,7 @@ packages:
       is-glob: 4.0.3
       semver: 7.5.4
       tsutils: 3.21.0(typescript@5.0.4)
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: 5.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5108,7 +5112,7 @@ packages:
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: 5.0.4
     dev: true
 
   /create-jest@29.7.0(@types/node@16.11.68)(ts-node@10.9.1):
@@ -10146,7 +10150,7 @@ packages:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     dependencies:
       tslib: 1.14.1
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: 5.0.4
     dev: true
 
   /tty-table@4.2.3:
