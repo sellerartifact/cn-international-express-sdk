@@ -5,14 +5,16 @@ export interface WanbConfig {
 }
 
 export interface GetShippingMethodsRes {
-  ShippingMethods: {
-    Code: string;
-    Name: string;
-    IsTracking: boolean;
-    IsVolumeWeight: boolean;
-    MaxVolumeWeightInCm: number;
-    Region: string;
-  }[];
+  Data: {
+    ShippingMethods: {
+      Code: string;
+      Name: string;
+      IsTracking: boolean;
+      IsVolumeWeight: boolean;
+      MaxVolumeWeightInCm: number;
+      Region: string;
+    }[];
+  };
 }
 
 export type AddOrderRes =

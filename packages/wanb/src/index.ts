@@ -24,17 +24,26 @@ export class Wanb {
       Authorization: this.genAuthorization(),
       Accept: 'application/json',
     };
-    console.log(url, headers);
     if (method === 'POST') {
       const res = await postJSONRequest<T>(url, sendData || {}, headers);
       return res as T;
     } else {
-      const res = await myRequest<string>({
-        method: 'get',
-        url,
-        headers,
-      });
-      return JSON.parse(res).Data as T;
+      // 如果是要打印标签则返回原有数据
+      const isReturnResponse = action.includes('/label');
+      const res = await myRequest<string>(
+        {
+          method: 'get',
+          url,
+          headers,
+          encoding: isReturnResponse ? null : undefined,
+        },
+        isReturnResponse,
+      );
+      if (isReturnResponse) {
+        return res as T;
+      } else {
+        return JSON.parse(res) as T;
+      }
     }
   }
 
