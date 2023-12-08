@@ -4,7 +4,7 @@ export interface WanbConfig {
   base_url?: string;
 }
 
-export interface GetShippingMethodsRes {
+export interface WanbGetShippingMethodsRes {
   Data: {
     ShippingMethods: {
       Code: string;
@@ -17,7 +17,7 @@ export interface GetShippingMethodsRes {
   };
 }
 
-export type AddOrderRes =
+export type WanbAddOrderRes =
   | {
       Succeeded: false;
       Error: {

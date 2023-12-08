@@ -90,6 +90,9 @@ importers:
       '@cn-international-express-sdk/santai':
         specifier: workspace:*
         version: link:../santai
+      '@cn-international-express-sdk/wanb':
+        specifier: workspace:*
+        version: link:../wanb
       '@cn-international-express-sdk/yanwen':
         specifier: workspace:*
         version: link:../yanwen

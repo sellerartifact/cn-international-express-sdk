@@ -31,6 +31,7 @@
     "@cn-international-express-sdk/kts": "workspace:*",
     "@cn-international-express-sdk/one7feia": "workspace:*",
     "@cn-international-express-sdk/santai": "workspace:*",
+    "@cn-international-express-sdk/wanb": "workspace:*",
     "@cn-international-express-sdk/yanwen": "workspace:*",
     "@cn-international-express-sdk/yuntu": "workspace:*",
     "@cn-international-express-sdk/zhxt": "workspace:^"
