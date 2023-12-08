@@ -2,12 +2,10 @@ import {
   postJSONRequest,
   myRequest,
 } from '@cn-international-express-sdk/utils';
+import { WanbConfig } from './state';
 
-export interface WanbConfig {
-  app_token: string;
-  user_id: string;
-  base_url?: string;
-}
+export * from './state';
+
 export class Wanb {
   public config: WanbConfig;
 
@@ -28,9 +26,7 @@ export class Wanb {
     };
     console.log(url, headers);
     if (method === 'POST') {
-      const res = await postJSONRequest<T>(url, sendData || {}, {
-        headers,
-      });
+      const res = await postJSONRequest<T>(url, sendData || {}, headers);
       return res as T;
     } else {
       const res = await myRequest<string>({
@@ -38,7 +34,7 @@ export class Wanb {
         url,
         headers,
       });
-      return JSON.parse(res) as T;
+      return JSON.parse(res).Data as T;
     }
   }
 
