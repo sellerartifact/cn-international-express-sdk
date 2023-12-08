@@ -22,7 +22,7 @@
 | [华羽通国际](http://szhyt.rtb56.com/usercenter/manager/api_document.aspx)                                                                                                           | [@cn-international-express-sdk/hua_yu_tong](./packages/hua_yu_tong) | ✅     |
 | [顺丰国际](./assets/顺丰国际-KTS喀秋莎系统下单接口通用技术规范V4-7-20200509.docx)                                                                                                   | [@cn-international-express-sdk/kts](./packages/kts)                 | ✅     |
 | [17FEIA](https://www.17feia.com/news?id=326&from=2)                                                                                                                                 | [@cn-international-express-sdk/one7feia](./packages/one7feia)       | ✅     |
-| [万邦速达](http://apidoc.wanbexpress.com/)                                                                                                                                          | [@cn-international-express-sdk/wanb](./packages/wanb)               | 🚧     |
+| [万邦速达](http://apidoc.wanbexpress.com/)                                                                                                                                          | [@cn-international-express-sdk/wanb](./packages/wanb)               | ✅     |
 
 # Install
 
