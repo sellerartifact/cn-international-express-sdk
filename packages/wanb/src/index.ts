@@ -18,8 +18,7 @@ export class Wanb {
     method: 'GET' | 'POST',
     sendData?: Record<string, any>,
   ) {
-    const { base_url } = this.config;
-    const url = `${base_url || 'http://api-sbx.wanbexpress.com/'}api/${action}`;
+    const url = this.getUrl(action);
     const headers = {
       Authorization: this.genAuthorization(),
       Accept: 'application/json',
@@ -28,23 +27,39 @@ export class Wanb {
       const res = await postJSONRequest<T>(url, sendData || {}, headers);
       return res as T;
     } else {
-      // 如果是要打印标签则返回原有数据
-      const isReturnResponse = action.includes('/label');
-      const res = await myRequest<string>(
-        {
-          method: 'get',
-          url,
-          headers,
-          encoding: isReturnResponse ? null : undefined,
-        },
-        isReturnResponse,
-      );
-      if (isReturnResponse) {
-        return res as T;
-      } else {
-        return JSON.parse(res) as T;
-      }
+      const res = await myRequest<string>({
+        method: 'get',
+        url,
+        headers,
+      });
+      return JSON.parse(res) as T;
     }
+  }
+
+  /**
+   * @description 打印单个面单
+   * @param processCode 包裹处理号
+   */
+  async printLabel(processCode: string) {
+    const action = `parcels/${processCode}/label`;
+    const res = await myRequest<string>({
+      method: 'get',
+      url: this.getUrl(action),
+      headers: {
+        Authorization: this.genAuthorization(),
+        Accept: 'application/json',
+      },
+      encoding: null,
+    });
+    const buffer = Buffer.from(res);
+    return buffer;
+  }
+
+  getUrl(action: string) {
+    const url = `${
+      this.config.base_url || 'http://api-sbx.wanbexpress.com/'
+    }api/${action}`;
+    return url;
   }
 
   genAuthorization() {
