@@ -1,10 +1,7 @@
 import { Recordable, promiseSoap } from '@cn-international-express-sdk/utils';
+import { SanTaiConfig } from './state';
 
-export interface SanTaiConfig {
-  app_key: string;
-  app_token: string;
-  user_id: string;
-}
+export * from './state';
 
 export class SanTai {
   public config: SanTaiConfig;
