@@ -1,5 +1,12 @@
 # @cn-international-express-sdk/hua_yu_tong
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies [5e602b8]
+  - @cn-international-express-sdk/utils@4.0.0
+
 ## 1.0.0
 
 ### Major Changes

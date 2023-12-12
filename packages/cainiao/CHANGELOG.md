@@ -1,5 +1,12 @@
 # @cn-international-express-sdk/cainiao
 
+## 5.0.1
+
+### Patch Changes
+
+- Updated dependencies [5e602b8]
+  - @cn-international-express-sdk/utils@4.0.0
+
 ## 5.0.0
 
 ### Major Changes

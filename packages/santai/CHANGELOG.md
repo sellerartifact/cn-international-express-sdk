@@ -1,5 +1,16 @@
 # @cn-international-express-sdk/santai
 
+## 3.0.0
+
+### Major Changes
+
+- 3813cfb: feat: add santai express types
+
+### Patch Changes
+
+- Updated dependencies [5e602b8]
+  - @cn-international-express-sdk/utils@4.0.0
+
 ## 2.0.0
 
 ### Major Changes

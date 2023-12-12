@@ -1,5 +1,20 @@
 # @cn-international-express-sdk/wanb
 
+## 2.0.0
+
+### Major Changes
+
+- 01f60eb: chore: 类型调整到 namespace 里头
+
+### Minor Changes
+
+- cc8707f: feat: 增加直接打印单号
+
+### Patch Changes
+
+- Updated dependencies [5e602b8]
+  - @cn-international-express-sdk/utils@4.0.0
+
 ## 1.0.0
 
 ### Major Changes

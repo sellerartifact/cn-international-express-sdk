@@ -1,5 +1,12 @@
 # @cn-international-express-sdk/yuntu
 
+## 3.0.1
+
+### Patch Changes
+
+- Updated dependencies [5e602b8]
+  - @cn-international-express-sdk/utils@4.0.0
+
 ## 3.0.0
 
 ### Major Changes
