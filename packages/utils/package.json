@@ -1,6 +1,6 @@
 {
   "name": "@cn-international-express-sdk/utils",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -19,7 +19,7 @@
   "dependencies": {
     "fast-xml-parser": "^4.3.2",
     "request": "^2.88.2",
-    "soap": "^1.0.0",
+    "soap": "0.29.0",
     "strong-soap": "^3.5.6"
   },
   "devDependencies": {
