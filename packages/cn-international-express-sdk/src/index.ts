@@ -11,3 +11,4 @@ export * from '@cn-international-express-sdk/fpx';
 export * from '@cn-international-express-sdk/hua_han';
 export * from '@cn-international-express-sdk/hua_yu_tong';
 export * from '@cn-international-express-sdk/wanb';
+export * from '@cn-international-express-sdk/bao_tong_da';

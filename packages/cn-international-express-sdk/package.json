@@ -1,6 +1,6 @@
 {
   "name": "cn-international-express-sdk",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -22,6 +22,7 @@
     "upgrade": "modern upgrade"
   },
   "dependencies": {
+    "@cn-international-express-sdk/bao_tong_da": "workspace:*",
     "@cn-international-express-sdk/cainiao": "workspace:*",
     "@cn-international-express-sdk/cne": "workspace:*",
     "@cn-international-express-sdk/fpx": "workspace:*",

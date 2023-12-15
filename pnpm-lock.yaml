@@ -94,6 +94,9 @@ importers:
 
   packages/cn-international-express-sdk:
     dependencies:
+      '@cn-international-express-sdk/bao_tong_da':
+        specifier: workspace:*
+        version: link:../bao_tong_da
       '@cn-international-express-sdk/cainiao':
         specifier: workspace:*
         version: link:../cainiao
@@ -3431,7 +3434,7 @@ packages:
       tapable: 2.2.1
       terser: 5.19.2
       tsconfig-paths-webpack-plugin: 4.1.0
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: 5.0.4
     transitivePeerDependencies:
       - debug
       - supports-color
