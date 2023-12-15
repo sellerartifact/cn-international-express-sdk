@@ -23,6 +23,7 @@
 | [顺丰国际](./assets/顺丰国际-KTS喀秋莎系统下单接口通用技术规范V4-7-20200509.docx)                                                                                                   | [@cn-international-express-sdk/kts](./packages/kts)                 | ✅     |
 | [17FEIA](https://www.17feia.com/news?id=326&from=2)                                                                                                                                 | [@cn-international-express-sdk/one7feia](./packages/one7feia)       | ✅     |
 | [万邦速达](http://apidoc.wanbexpress.com/)                                                                                                                                          | [@cn-international-express-sdk/wanb](./packages/wanb)               | ✅     |
+| [宝通达](./assets/宝通达接口.pdf)                                                                                                                                                   | [@cn-international-express-sdk/bao_tong_da](./packages/bao_tong_da) | ✅     |
 
 # Install
 
