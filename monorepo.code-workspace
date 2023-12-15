@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "bao_tong_da",
+      "path": "packages/bao_tong_da/"
+    },
+    {
       "name": "wanb",
       "path": "packages/wanb/"
     },
