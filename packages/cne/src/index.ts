@@ -3,12 +3,9 @@ import {
   postJSONRequest,
   Recordable,
 } from '@cn-international-express-sdk/utils';
+import { CneConfig } from './state';
 
-export interface CneConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state';
 
 export class Cne {
   public config: CneConfig;
