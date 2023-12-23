@@ -4,12 +4,9 @@ import {
   md5,
   postJSONRequest,
 } from '@cn-international-express-sdk/utils';
+import { FpxConfig } from './state';
 
-export interface FpxConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state/index';
 
 export class Fpx {
   private config: FpxConfig;
