@@ -1,10 +1,7 @@
 import { Recordable, postRequest } from '@cn-international-express-sdk/utils';
+import { HuaYuTongConfig } from './state';
 
-export interface HuaYuTongConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state';
 
 export class HuaYuTong {
   private config: HuaYuTongConfig;
