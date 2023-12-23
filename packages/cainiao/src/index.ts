@@ -5,13 +5,9 @@ import {
   md5ToBase64,
 } from '@cn-international-express-sdk/utils';
 
-import { actionTypeToCodeMap, shipTypes } from './state/index';
+import { CaiNiaoConfig, actionTypeToCodeMap, shipTypes } from './state/index';
 
-export interface CaiNiaoConfig {
-  user_id: string;
-  app_token: string;
-  base_url?: string;
-}
+export type { CaiNiaoConfig, CaiNiaoTypes } from './state/index';
 
 export class CaiNiao {
   public config: CaiNiaoConfig;

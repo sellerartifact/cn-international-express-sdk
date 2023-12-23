@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-namespace */
 export const shipTypes = [
   {
     label: '菜鸟国际快递_快线_普货',
@@ -48,3 +49,34 @@ export const actionTypeToCodeMap: {
   'cnge.waybill.get': 'CGOP',
   'cnge.order.cancel': 'CNGCP-OPEN',
 };
+
+export interface CaiNiaoConfig {
+  user_id: string;
+  app_token: string;
+  base_url?: string;
+}
+
+export namespace CaiNiaoTypes {
+  export interface PrintOrderNumberRes {
+    success: string;
+    errorMsg: string;
+    data: {
+      trackingNumber: string;
+      waybillPdfData: string;
+      laneCode: string;
+      laneName: string;
+      laneLastMileCP: string;
+      distributionWarehouse: string;
+    };
+  }
+
+  export interface AddOrderRes {
+    success: string;
+    errorMsg: string;
+    data: {
+      laneCode: string;
+      orderCode: string;
+      trackingNumber: string;
+    };
+  }
+}
