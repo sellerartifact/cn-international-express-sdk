@@ -26,7 +26,7 @@ import { CaiNiao } from "@cn-international-express-sdk/cainiao";
 For commonJS
 
 ```
-const { CaiNiao } = require("@cn-international-express-sdk/cainiao");
+const { CaiNiao, CaiNiaoTypes } = require("@cn-international-express-sdk/cainiao");
 ```
 
 Send a request to the API:
@@ -39,7 +39,7 @@ const cainiao = new CaiNiao({
 
 // create order
 
-await cainiao.genRequest<AddOrderRes>("cnge.order.create", sendData)
+await cainiao.genRequest<CaiNiaoTypes.AddOrderRes>("cnge.order.create", sendData)
 
 // get ship methods
 
