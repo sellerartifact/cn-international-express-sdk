@@ -2,12 +2,9 @@ import {
   Recordable,
   promiseStrongSoap,
 } from '@cn-international-express-sdk/utils';
+import { HuaHanConfig } from './state';
 
-export interface HuaHanConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state';
 
 export class HuaHan {
   private config: HuaHanConfig;
