@@ -15,18 +15,18 @@ pnpm install --save cn-international-express-sdk/cainiao
 ### Usage
 
 ```bash
-import { CaiNiao } from "cn-international-express-sdk";
+import { CaiNiao, CaiNiaoTypes  } from "cn-international-express-sdk";
 
 OR
 
-import { CaiNiao } from "@cn-international-express-sdk/cainiao";
+import { CaiNiao, CaiNiaoTypes  } from "@cn-international-express-sdk/cainiao";
 
 ```
 
 For commonJS
 
 ```
-const { CaiNiao, CaiNiaoTypes } = require("@cn-international-express-sdk/cainiao");
+const { CaiNiao } = require("@cn-international-express-sdk/cainiao");
 ```
 
 Send a request to the API:
