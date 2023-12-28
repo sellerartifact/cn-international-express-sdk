@@ -124,6 +124,9 @@ importers:
       '@cn-international-express-sdk/santai':
         specifier: workspace:*
         version: link:../santai
+      '@cn-international-express-sdk/tuo_tou':
+        specifier: workspace:*
+        version: link:../tuo_tou
       '@cn-international-express-sdk/wanb':
         specifier: workspace:*
         version: link:../wanb
@@ -3537,7 +3540,7 @@ packages:
       tapable: 2.2.1
       terser: 5.19.2
       tsconfig-paths-webpack-plugin: 4.1.0
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: 5.0.4
     transitivePeerDependencies:
       - debug
       - supports-color

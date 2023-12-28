@@ -1,6 +1,6 @@
 {
   "name": "cn-international-express-sdk",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -32,6 +32,7 @@
     "@cn-international-express-sdk/kts": "workspace:*",
     "@cn-international-express-sdk/one7feia": "workspace:*",
     "@cn-international-express-sdk/santai": "workspace:*",
+    "@cn-international-express-sdk/tuo_tou": "workspace:*",
     "@cn-international-express-sdk/wanb": "workspace:*",
     "@cn-international-express-sdk/yanwen": "workspace:*",
     "@cn-international-express-sdk/yuntu": "workspace:*",
