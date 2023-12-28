@@ -24,6 +24,7 @@
 | [17FEIA](https://www.17feia.com/news?id=326&from=2)                                                                                                                                 | [@cn-international-express-sdk/one7feia](./packages/one7feia)       | ✅     |
 | [万邦速达](http://apidoc.wanbexpress.com/)                                                                                                                                          | [@cn-international-express-sdk/wanb](./packages/wanb)               | ✅     |
 | [宝通达](./assets/宝通达接口.pdf)                                                                                                                                                   | [@cn-international-express-sdk/bao_tong_da](./packages/bao_tong_da) | ✅     |
+| [妥投国际](http://order.logtt.com/usercenter/manager/api_document.aspx)                                                                                                             | [@cn-international-express-sdk/tuo_tou](./packages/tuo_tou)         | ✅     |
 
 # Install
 
