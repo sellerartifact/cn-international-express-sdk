@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "xms",
+      "path": "packages/xms/"
+    },
+    {
       "name": "tuo_tou",
       "path": "packages/tuo_tou/"
     },
