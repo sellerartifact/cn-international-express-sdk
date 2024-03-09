@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/hua_han
 
+## 2.0.0
+
+### Major Changes
+
+- e470558: feat(hua_han): made response types
+
 ## 1.0.1
 
 ### Patch Changes

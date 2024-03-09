@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/cainiao
 
+## 6.0.0
+
+### Major Changes
+
+- a4be607: chore(doc): update demo code
+
 ## 5.0.1
 
 ### Patch Changes

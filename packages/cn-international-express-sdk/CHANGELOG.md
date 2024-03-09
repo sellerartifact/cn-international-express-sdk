@@ -1,5 +1,24 @@
 # cn-international-express-sdk
 
+## 6.0.0
+
+### Major Changes
+
+- b410ab9: feat: 导出宝通达物流模块
+
+### Patch Changes
+
+- Updated dependencies [27cae5b]
+- Updated dependencies [a4be607]
+- Updated dependencies [e470558]
+- Updated dependencies [ece0ba0]
+- Updated dependencies [3646990]
+  - @cn-international-express-sdk/cne@3.0.0
+  - @cn-international-express-sdk/cainiao@6.0.0
+  - @cn-international-express-sdk/hua_han@2.0.0
+  - @cn-international-express-sdk/bao_tong_da@1.0.0
+  - @cn-international-express-sdk/fpx@3.0.0
+
 ## 5.0.2
 
 ### Patch Changes

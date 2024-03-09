@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/cne
 
+## 3.0.0
+
+### Major Changes
+
+- 27cae5b: feat: made return types
+
 ## 2.0.1
 
 ### Patch Changes

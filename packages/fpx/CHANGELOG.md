@@ -1,5 +1,11 @@
 # @cn-international-express-sdk/fpx
 
+## 3.0.0
+
+### Major Changes
+
+- 3646990: feat(fpx): made response types
+
 ## 2.0.1
 
 ### Patch Changes

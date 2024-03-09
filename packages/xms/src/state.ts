@@ -4,6 +4,11 @@ export interface XMSConfig {
   base_url?: string;
 }
 
+type ResponseError = {
+  errorCode: string;
+  errorInfo: string;
+};
+
 export namespace XMSTypes {
   export interface GetShippingMethodsRes {
     transportWays: {
@@ -14,5 +19,18 @@ export namespace XMSTypes {
       trackingNoRuleRegex?: string;
       used: 'Y' | 'N';
     }[];
+  }
+
+  export interface AddOrderRes {
+    success: 'true' | 'false';
+    id: string;
+    trackingNo: string;
+    error?: ResponseError;
+  }
+
+  export interface PrintOrderNumberRes {
+    success: 'true' | 'false';
+    error?: ResponseError;
+    url: string;
   }
 }
