@@ -25,7 +25,7 @@
 | [万邦速达](http://apidoc.wanbexpress.com/)                                                                                                                                          | [@cn-international-express-sdk/wanb](./packages/wanb)               | ✅     |
 | [宝通达](./assets/宝通达接口.pdf)                                                                                                                                                   | [@cn-international-express-sdk/bao_tong_da](./packages/bao_tong_da) | ✅     |
 | [妥投国际](http://order.logtt.com/usercenter/manager/api_document.aspx)                                                                                                             | [@cn-international-express-sdk/tuo_tou](./packages/tuo_tou)         | ✅     |
-| [云速通达](./assets/云速通达xms.docx)                                                                                                                                               | [@cn-international-express-sdk/xms](./packages/xms)                 | 🏗️     |
+| [云速通达](./assets/云速通达xms.docx)                                                                                                                                               | [@cn-international-express-sdk/xms](./packages/xms)                 | ✅     |
 
 # Install
 
