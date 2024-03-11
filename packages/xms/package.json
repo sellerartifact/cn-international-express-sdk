@@ -1,6 +1,6 @@
 {
   "name": "@cn-international-express-sdk/xms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -17,15 +17,15 @@
     "@cn-international-express-sdk/utils": "workspace:*"
   },
   "devDependencies": {
-    "@modern-js/eslint-config": "2.48.0",
-    "@modern-js/module-tools": "2.48.0",
+    "@modern-js/eslint-config": "2.43.0",
+    "@modern-js/module-tools": "2.43.0",
     "@types/node": "~16.11.7",
     "husky": "~8.0.1",
     "lint-staged": "~13.1.0",
     "prettier": "~2.8.1",
     "rimraf": "~3.0.2",
     "typescript": "~5.0.4",
-    "@modern-js/plugin-testing": "2.48.0",
+    "@modern-js/plugin-testing": "2.43.0",
     "@types/jest": "~29.2.4"
   },
   "sideEffects": [],

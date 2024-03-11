@@ -531,14 +531,14 @@ importers:
         version: link:../utils
     devDependencies:
       '@modern-js/eslint-config':
-        specifier: 2.48.0
-        version: 2.48.0(typescript@5.0.4)
+        specifier: 2.43.0
+        version: 2.43.0(typescript@5.0.4)
       '@modern-js/module-tools':
-        specifier: 2.48.0
-        version: 2.48.0(eslint@8.55.0)(typescript@5.0.4)
+        specifier: 2.43.0
+        version: 2.43.0(typescript@5.0.4)
       '@modern-js/plugin-testing':
-        specifier: 2.48.0
-        version: 2.48.0(@types/node@16.11.68)(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.1)(tsconfig-paths@4.2.0)(typescript@5.0.4)(zod@3.22.4)
+        specifier: 2.43.0
+        version: 2.43.0(@types/node@16.11.68)(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.1)(tsconfig-paths@4.2.0)(typescript@5.0.4)
       '@types/jest':
         specifier: ~29.2.4
         version: 29.2.6
@@ -690,38 +690,11 @@ packages:
     dev: true
     optional: true
 
-  /@ast-grep/napi-darwin-arm64@0.16.0:
-    resolution: {integrity: sha512-ESjIg03S0ln+8CP43TKqY6+QPL2Kkm+6iMS5kAUMVtH/WNWd2z0oQLg9bmadUNPylYbB42B3zRtuTKwm/nCpdA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@ast-grep/napi-darwin-x64@0.12.0:
     resolution: {integrity: sha512-fzYiA9fdOF3OoGUpZ001s46HtyWcbfGGnLGwYq/PaK7NqKh2haTfKUuLUfdcos/ZZXxY59vkiNccVIEyuKYMnQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@ast-grep/napi-darwin-x64@0.16.0:
-    resolution: {integrity: sha512-a7cOdfACgmsGyTSMLkVuGiK/v+M8eTgUWew5X/4gcPHX4GcqVbptP82kbtiVVWZW5QXX2j6VYkFCsmJ7knkXBA==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@ast-grep/napi-linux-arm64-gnu@0.16.0:
-    resolution: {integrity: sha512-5BaueDB3ZJxLy/qGDzWO16zSmU02da96ABkp6S210OTlaThDgLpjfztoI10iwu/f3WpTnOvbggjfzOLWUAL3Aw==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
     requiresBuild: true
     dev: true
     optional: true
@@ -736,26 +709,8 @@ packages:
     dev: true
     optional: true
 
-  /@ast-grep/napi-linux-x64-gnu@0.16.0:
-    resolution: {integrity: sha512-QjiY45TvPI50I2UxPlfPuoeDeEYJxGDyLegqYfrLsxtdv+wX2Jdgjew6myiMXCVG9oJWgtmp/z28zpl7H8YLPA==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@ast-grep/napi-win32-arm64-msvc@0.12.0:
     resolution: {integrity: sha512-87YnIRmBZuJRQnE8Rkvnez6zbehdaNyRCZ+DXbJj0SK02BXYOXBqZ/pDZvP2ItZSEaV7Y5ONxZfSVw3uk+zxzA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@ast-grep/napi-win32-arm64-msvc@0.16.0:
-    resolution: {integrity: sha512-4OCpEf44h63RVFiNA2InIoRNlTB2XJUq1nUiFacTagSP5L3HwnZQ4URC1+fdmZh1ESedm7KxzvhgByqGeUyzgA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -772,26 +727,8 @@ packages:
     dev: true
     optional: true
 
-  /@ast-grep/napi-win32-ia32-msvc@0.16.0:
-    resolution: {integrity: sha512-bJW9w9btdE9OuGKZSNiKkBR+Ax4113VhiJgxC2t9KbhmOsOM9E4l2U570h+DrjWdf+H3Oyb4Cz8so2noh5LQqw==}
-    engines: {node: '>= 10'}
-    cpu: [ia32]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@ast-grep/napi-win32-x64-msvc@0.12.0:
     resolution: {integrity: sha512-7Co11h6fkNwJ8fJA3Xg6Nh1pr99VKO9V0KcA9ibT0VQmh9YBmH8VeUOT7XFPvKm3jZvqGL1ONHx0A531+Fyc8g==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@ast-grep/napi-win32-x64-msvc@0.16.0:
-    resolution: {integrity: sha512-+qUauPADrUIBgSGMmjnCBuy2xuGlG97qjrRAYo9y+Mv9gGnAMpGA5zzLZArHcQwNzXwFB9aIqavtCL+tu28wHg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -809,19 +746,6 @@ packages:
       '@ast-grep/napi-win32-arm64-msvc': 0.12.0
       '@ast-grep/napi-win32-ia32-msvc': 0.12.0
       '@ast-grep/napi-win32-x64-msvc': 0.12.0
-    dev: true
-
-  /@ast-grep/napi@0.16.0:
-    resolution: {integrity: sha512-qOqQG9o97Q4tIZXZyWI7JuDZGJi3yibTN7LiGLmnzNLaIhmpv26BWj5OYJibUyQLVH/aTjdZSNx4spa7EihUzg==}
-    engines: {node: '>= 10'}
-    optionalDependencies:
-      '@ast-grep/napi-darwin-arm64': 0.16.0
-      '@ast-grep/napi-darwin-x64': 0.16.0
-      '@ast-grep/napi-linux-arm64-gnu': 0.16.0
-      '@ast-grep/napi-linux-x64-gnu': 0.16.0
-      '@ast-grep/napi-win32-arm64-msvc': 0.16.0
-      '@ast-grep/napi-win32-ia32-msvc': 0.16.0
-      '@ast-grep/napi-win32-x64-msvc': 0.16.0
     dev: true
 
   /@babel/code-frame@7.23.5:
@@ -3339,7 +3263,7 @@ packages:
     dev: true
 
   /@modern-js-app/eslint-config@2.43.0(typescript@5.0.4):
-    resolution: {integrity: sha512-nSO4KJFWoHQfOhtshURsmEPGdMG5+17D3vA9gKUbxiRn62r257MpyTQGg8mAkUgdG0UK8WtJlmRVvQiFjAZ6BQ==, tarball: https://registry.npmmirror.com/@modern-js-app/eslint-config/-/eslint-config-2.43.0.tgz}
+    resolution: {integrity: sha512-nSO4KJFWoHQfOhtshURsmEPGdMG5+17D3vA9gKUbxiRn62r257MpyTQGg8mAkUgdG0UK8WtJlmRVvQiFjAZ6BQ==}
     peerDependencies:
       typescript: ^4 || ^5
     dependencies:
@@ -3365,37 +3289,6 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
-    dev: true
-
-  /@modern-js-app/eslint-config@2.48.0(typescript@5.0.4):
-    resolution: {integrity: sha512-HkMncFnr+YFXspzWYFRcy10qsxjA3YWywYxBKXOU+78wE/FKZO0W3QnmFM2GQ59K0xUkCXcCuMlRccoMlDAltg==}
-    peerDependencies:
-      typescript: ^4 || ^5
-    dependencies:
-      '@babel/core': 7.23.5
-      '@babel/eslint-parser': 7.23.3(@babel/core@7.23.5)(eslint@8.55.0)
-      '@babel/eslint-plugin': 7.23.5(@babel/eslint-parser@7.23.3)(eslint@8.55.0)
-      '@rsbuild/babel-preset': 0.4.8
-      '@rsbuild/core': 0.4.8
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.55.0)(typescript@5.0.4)
-      '@typescript-eslint/parser': 5.62.0(eslint@8.55.0)(typescript@5.0.4)
-      eslint: 8.55.0
-      eslint-config-prettier: 8.10.0(eslint@8.55.0)
-      eslint-plugin-eslint-comments: 3.2.0(eslint@8.55.0)
-      eslint-plugin-filenames: 1.3.2(eslint@8.55.0)
-      eslint-plugin-import: 2.29.0(@typescript-eslint/parser@5.62.0)(eslint@8.55.0)
-      eslint-plugin-node: 11.1.0(eslint@8.55.0)
-      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.10.0)(eslint@8.55.0)(prettier@2.8.8)
-      eslint-plugin-promise: 6.1.1(eslint@8.55.0)
-      eslint-plugin-react: 7.33.2(eslint@8.55.0)
-      eslint-plugin-react-hooks: 4.6.0(eslint@8.55.0)
-      prettier: 2.8.8
-      typescript: 5.0.4
-    transitivePeerDependencies:
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-      - webpack
     dev: true
 
   /@modern-js-reduck/plugin-auto-actions@1.1.11(@modern-js-reduck/store@1.1.11):
@@ -3445,11 +3338,11 @@ packages:
       - supports-color
     dev: true
 
-  /@modern-js/babel-compiler@2.48.0:
-    resolution: {integrity: sha512-YKTwSE6ygtfo78DnPWP3f6Q5EFl8fMH18c/CMDr6FsYY8P+UNdFWc9SNJjNoyYvZ5+D4v5QFLlYBIWZnhJMbVw==}
+  /@modern-js/babel-compiler@2.43.0:
+    resolution: {integrity: sha512-dQdzZRX4a6kU6HEuOuEG19vV8ncQzi9Ibynnb0H7DYUTVZVcPvHBbWnR8aLn+h+M98W+ZuZb0GT4elwB9N/2KA==}
     dependencies:
       '@babel/core': 7.23.5
-      '@modern-js/utils': 2.48.0
+      '@modern-js/utils': 2.43.0
       '@swc/helpers': 0.5.3
     transitivePeerDependencies:
       - supports-color
@@ -3473,8 +3366,8 @@ packages:
       tsconfig-paths: 4.2.0
     dev: true
 
-  /@modern-js/bff-core@2.48.0(ts-node@10.9.1)(tsconfig-paths@4.2.0)(zod@3.22.4):
-    resolution: {integrity: sha512-UX+bqrMXdzoflGEgNWh4z7EXAV92D60NBPNKALPgCJe/aSfNnO3+7/laE/9fXuXec/hhQl4TFyh/VgWxFpK+Nw==}
+  /@modern-js/bff-core@2.43.0(ts-node@10.9.1)(tsconfig-paths@4.2.0):
+    resolution: {integrity: sha512-xlsI8Im3DgJYjdJ0U/Sd0Ub4faz8o/jOXLkLkD3SGJdNyBXk7mYGy3T81s1Qe/VCOdalto7cgls2rqgxUV39qQ==}
     peerDependencies:
       ts-node: ^10.9.1
       tsconfig-paths: ^4.1.2
@@ -3483,13 +3376,12 @@ packages:
       zod:
         optional: true
     dependencies:
-      '@modern-js/utils': 2.48.0
+      '@modern-js/utils': 2.43.0
       '@swc/helpers': 0.5.3
       koa-compose: 4.1.0
       reflect-metadata: 0.1.14
       ts-node: 10.9.1(@types/node@16.11.68)(typescript@5.0.4)
       tsconfig-paths: 4.2.0
-      zod: 3.22.4
     dev: true
 
   /@modern-js/codesmith-formily@2.3.1(@modern-js/codesmith@2.3.1)(typescript@5.0.4):
@@ -3563,20 +3455,11 @@ packages:
     dev: true
 
   /@modern-js/core@2.43.0:
-    resolution: {integrity: sha512-scO8koh/m2v2xjv3ypSj9nYL7vKwmdynEjt+kuT9e6Sjfz+Cr1ymLHwS0mMBRiO35yL1piQWTWTWSY7yIiKxkg==, tarball: https://registry.npmmirror.com/@modern-js/core/-/core-2.43.0.tgz}
+    resolution: {integrity: sha512-scO8koh/m2v2xjv3ypSj9nYL7vKwmdynEjt+kuT9e6Sjfz+Cr1ymLHwS0mMBRiO35yL1piQWTWTWSY7yIiKxkg==}
     dependencies:
       '@modern-js/node-bundle-require': 2.43.0
       '@modern-js/plugin': 2.43.0
       '@modern-js/utils': 2.43.0
-      '@swc/helpers': 0.5.3
-    dev: true
-
-  /@modern-js/core@2.48.0:
-    resolution: {integrity: sha512-ug4JT0YgUnNyJeDqzcz43c2jFI0bIXf+O2D/bBoKKZn8Uc0BSyorJi6kUk49bv9Wyq6IfTHR3rm29/CCUMkYtQ==}
-    dependencies:
-      '@modern-js/node-bundle-require': 2.48.0
-      '@modern-js/plugin': 2.48.0
-      '@modern-js/utils': 2.48.0
       '@swc/helpers': 0.5.3
     dev: true
 
@@ -3603,7 +3486,7 @@ packages:
     dev: true
 
   /@modern-js/eslint-config@2.43.0(typescript@5.0.4):
-    resolution: {integrity: sha512-Ixlkd45gksQGzUIyZpgkpLZWULV6iUKD9wNn6td/0H4Cfdqpv9JtRHBr94Avi1WpjHRpveHPNZMR0sN6Gj/pJQ==, tarball: https://registry.npmmirror.com/@modern-js/eslint-config/-/eslint-config-2.43.0.tgz}
+    resolution: {integrity: sha512-Ixlkd45gksQGzUIyZpgkpLZWULV6iUKD9wNn6td/0H4Cfdqpv9JtRHBr94Avi1WpjHRpveHPNZMR0sN6Gj/pJQ==}
     dependencies:
       '@modern-js-app/eslint-config': 2.43.0(typescript@5.0.4)
     transitivePeerDependencies:
@@ -3611,18 +3494,6 @@ packages:
       - eslint-import-resolver-webpack
       - supports-color
       - typescript
-    dev: true
-
-  /@modern-js/eslint-config@2.48.0(typescript@5.0.4):
-    resolution: {integrity: sha512-7fwyWHBI7x2fvcc4fAiWGiYUhxpAn4GnssZ41aD2MTOSBLeBhF1u6VJAJRQuP4Sn2cu6tGhi4gkZPPF1JJfYdg==}
-    dependencies:
-      '@modern-js-app/eslint-config': 2.48.0(typescript@5.0.4)
-    transitivePeerDependencies:
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-      - typescript
-      - webpack
     dev: true
 
   /@modern-js/generator-common@3.3.1(@modern-js/codesmith@2.3.1)(typescript@5.0.4):
@@ -3787,7 +3658,7 @@ packages:
     dev: true
 
   /@modern-js/module-tools@2.43.0(typescript@5.0.4):
-    resolution: {integrity: sha512-/KIkD9c0osqnKGmEYnYvnt0HL2zjqTuYGRQ90o2uT9qdkS2iXaPC9uZjfx9kBrwoTrwlN/MYIH/j/PTHoOr7Bw==, tarball: https://registry.npmmirror.com/@modern-js/module-tools/-/module-tools-2.43.0.tgz}
+    resolution: {integrity: sha512-/KIkD9c0osqnKGmEYnYvnt0HL2zjqTuYGRQ90o2uT9qdkS2iXaPC9uZjfx9kBrwoTrwlN/MYIH/j/PTHoOr7Bw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -3829,50 +3700,6 @@ packages:
       typescript: 5.0.4
     transitivePeerDependencies:
       - debug
-      - supports-color
-    dev: true
-
-  /@modern-js/module-tools@2.48.0(eslint@8.55.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-nBKr9u4nnxtmBPknGFoNVZ9dIf1sPxCYcQ/YlCV0jYj5snEpPBXv/vEaX4qCugPVAjii6WcNFuBRAzi2eF0vCQ==}
-    engines: {node: '>=16.0.0'}
-    hasBin: true
-    peerDependencies:
-      typescript: ^4 || ^5
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@ampproject/remapping': 2.2.1
-      '@ast-grep/napi': 0.16.0
-      '@babel/core': 7.23.5
-      '@babel/types': 7.23.5
-      '@modern-js/core': 2.48.0
-      '@modern-js/plugin': 2.48.0
-      '@modern-js/plugin-changeset': 2.48.0
-      '@modern-js/plugin-i18n': 2.48.0
-      '@modern-js/plugin-lint': 2.48.0(eslint@8.55.0)
-      '@modern-js/swc-plugins': 0.6.6(@swc/helpers@0.5.3)
-      '@modern-js/types': 2.48.0
-      '@modern-js/utils': 2.48.0
-      '@rollup/pluginutils': 4.1.1
-      '@swc/helpers': 0.5.3
-      convert-source-map: 1.8.0
-      enhanced-resolve: 5.12.0
-      esbuild: 0.19.2
-      magic-string: 0.30.5
-      postcss: 8.4.31
-      postcss-modules: 4.3.0(postcss@8.4.31)
-      safe-identifier: 0.4.2
-      source-map: 0.7.4
-      style-inject: 0.3.0
-      sucrase: 3.29.0
-      tapable: 2.2.1
-      terser: 5.19.2
-      tsconfig-paths-webpack-plugin: 4.1.0
-      typescript: 5.0.4
-    transitivePeerDependencies:
-      - debug
-      - eslint
       - supports-color
     dev: true
 
@@ -3930,7 +3757,7 @@ packages:
     dev: true
 
   /@modern-js/new-action@2.43.0(typescript@5.0.4):
-    resolution: {integrity: sha512-0gnYqe5AmAVgj27U0hY8q+n/Oog1lg0hEEe9fwSRj5+JNxsM8qRaIcwKDyFn5HIQGIjJ5feT+ZdY/hswkqHliQ==, tarball: https://registry.npmmirror.com/@modern-js/new-action/-/new-action-2.43.0.tgz}
+    resolution: {integrity: sha512-0gnYqe5AmAVgj27U0hY8q+n/Oog1lg0hEEe9fwSRj5+JNxsM8qRaIcwKDyFn5HIQGIjJ5feT+ZdY/hswkqHliQ==}
     dependencies:
       '@modern-js/codesmith': 2.3.2
       '@modern-js/codesmith-formily': 2.3.2(@modern-js/codesmith@2.3.2)(typescript@5.0.4)
@@ -3967,14 +3794,6 @@ packages:
       esbuild: 0.17.19
     dev: true
 
-  /@modern-js/node-bundle-require@2.48.0:
-    resolution: {integrity: sha512-tJEpFsZyBcdSECVc1qfcqmNeHbZPtU0F/B9Gx9Rbxaz2JJ3V/FEGqK4BxefuIRe4KCBjOayqohJJ+qT9SeVE0Q==}
-    dependencies:
-      '@modern-js/utils': 2.48.0
-      '@swc/helpers': 0.5.3
-      esbuild: 0.17.19
-    dev: true
-
   /@modern-js/plugin-changeset@2.42.0:
     resolution: {integrity: sha512-107HRY8FLdInHymnO1jlmRFXqozznT4UTas1ycFtxmCmskn/1fqnHPgp6AMzjCmWaxE9DAZ06WPSt8IXQ+7+Gw==}
     dependencies:
@@ -4006,28 +3825,13 @@ packages:
     dev: true
 
   /@modern-js/plugin-changeset@2.43.0:
-    resolution: {integrity: sha512-8T03xzf9PI6WQ00WynohWyc/Flvf6QoYkMweqZVbSb9giQzZiINCGR66ynNWHgmzQ0vXUOw9gz3yVGGv/BFxVA==, tarball: https://registry.npmmirror.com/@modern-js/plugin-changeset/-/plugin-changeset-2.43.0.tgz}
+    resolution: {integrity: sha512-8T03xzf9PI6WQ00WynohWyc/Flvf6QoYkMweqZVbSb9giQzZiINCGR66ynNWHgmzQ0vXUOw9gz3yVGGv/BFxVA==}
     dependencies:
       '@changesets/cli': 2.27.1
       '@changesets/git': 2.0.0
       '@changesets/read': 0.5.9
       '@modern-js/plugin-i18n': 2.43.0
       '@modern-js/utils': 2.43.0
-      '@swc/helpers': 0.5.3
-      axios: 1.6.2
-      resolve-from: 5.0.0
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
-  /@modern-js/plugin-changeset@2.48.0:
-    resolution: {integrity: sha512-dHOmnTL5rlCfjqwApfYGwapi6evjYew0z/i3XRuwtvVAxZlc9QY+rplJu4vzZMw0a/YNvHbUYb5q2QA4jCCZJw==}
-    dependencies:
-      '@changesets/cli': 2.27.1
-      '@changesets/git': 2.0.0
-      '@changesets/read': 0.5.9
-      '@modern-js/plugin-i18n': 2.48.0
-      '@modern-js/utils': 2.48.0
       '@swc/helpers': 0.5.3
       axios: 1.6.2
       resolve-from: 5.0.0
@@ -4050,16 +3854,9 @@ packages:
     dev: true
 
   /@modern-js/plugin-i18n@2.43.0:
-    resolution: {integrity: sha512-L+iqFhgy1ibWmeH6CFtciPo91owo9KeK+EdlaW8o3paMbL6JC95uG/2CpfhYMDr9C9q4jjH2NIxWFDBk+6pz8Q==, tarball: https://registry.npmmirror.com/@modern-js/plugin-i18n/-/plugin-i18n-2.43.0.tgz}
+    resolution: {integrity: sha512-L+iqFhgy1ibWmeH6CFtciPo91owo9KeK+EdlaW8o3paMbL6JC95uG/2CpfhYMDr9C9q4jjH2NIxWFDBk+6pz8Q==}
     dependencies:
       '@modern-js/utils': 2.43.0
-      '@swc/helpers': 0.5.3
-    dev: true
-
-  /@modern-js/plugin-i18n@2.48.0:
-    resolution: {integrity: sha512-J3BAoyG90u21N/lCtNj6C6+yZ2kt/jyUzTupE1JtleFYKAYN2jy81IWEZlsISZ1bysWZQrEgLftzEBXjvJ8ijQ==}
-    dependencies:
-      '@modern-js/utils': 2.48.0
       '@swc/helpers': 0.5.3
     dev: true
 
@@ -4090,7 +3887,7 @@ packages:
     dev: true
 
   /@modern-js/plugin-lint@2.43.0:
-    resolution: {integrity: sha512-DX2bErUZE3RipsxnPpLfzN64ROEKaQ5L/zUWJ0Hw/SR7tVi8+sxffdEhplNuUOzuBNGDlAk7l658xdjp1AYOPA==, tarball: https://registry.npmmirror.com/@modern-js/plugin-lint/-/plugin-lint-2.43.0.tgz}
+    resolution: {integrity: sha512-DX2bErUZE3RipsxnPpLfzN64ROEKaQ5L/zUWJ0Hw/SR7tVi8+sxffdEhplNuUOzuBNGDlAk7l658xdjp1AYOPA==}
     dependencies:
       '@modern-js/tsconfig': 2.43.0
       '@modern-js/utils': 2.43.0
@@ -4100,22 +3897,6 @@ packages:
       husky: 8.0.3
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@modern-js/plugin-lint@2.48.0(eslint@8.55.0):
-    resolution: {integrity: sha512-AynME0UvsYt1+Ra8kenR7jfuNA+nq9RYxM6afXVPJXFYSXS2yQhhs0k8A2un703XlxUywjWVaoxYzygEn9W3zw==}
-    peerDependencies:
-      eslint: ^8.28.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
-    dependencies:
-      '@modern-js/tsconfig': 2.48.0
-      '@modern-js/utils': 2.48.0
-      '@swc/helpers': 0.5.3
-      cross-spawn: 7.0.3
-      eslint: 8.55.0
-      husky: 8.0.3
     dev: true
 
   /@modern-js/plugin-testing@2.42.0(@types/node@16.11.68)(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.1)(tsconfig-paths@4.2.0)(typescript@5.0.4):
@@ -4175,10 +3956,10 @@ packages:
       - zod
     dev: true
 
-  /@modern-js/plugin-testing@2.48.0(@types/node@16.11.68)(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.1)(tsconfig-paths@4.2.0)(typescript@5.0.4)(zod@3.22.4):
-    resolution: {integrity: sha512-QvM487VWNuAHlHGABc4Jp4VhEr+vtmnaJaLa9hZF6nYSrOFoUb4b4xD51Ock5x9ajj4BdAGSSq6Dhw5x38LmXA==}
+  /@modern-js/plugin-testing@2.43.0(@types/node@16.11.68)(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.1)(tsconfig-paths@4.2.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-jMU0i37RIvSw3312CpS2kBYWBqUl4ELKDCqE76fNPHLb/lxv8jQNQ55FLZD8+1vk4JzP8+9w3FJstr1PzYlT8A==}
     peerDependencies:
-      '@modern-js/runtime': ^2.48.0
+      '@modern-js/runtime': ^2.43.0
       react: '>=17'
       react-dom: '>=17'
     peerDependenciesMeta:
@@ -4193,13 +3974,13 @@ packages:
       '@modern-js-reduck/plugin-effects': 1.1.11(@modern-js-reduck/store@1.1.11)
       '@modern-js-reduck/plugin-immutable': 1.1.11(@modern-js-reduck/store@1.1.11)
       '@modern-js-reduck/store': 1.1.11
-      '@modern-js/babel-compiler': 2.48.0
-      '@modern-js/bff-core': 2.48.0(ts-node@10.9.1)(tsconfig-paths@4.2.0)(zod@3.22.4)
-      '@modern-js/plugin': 2.48.0
-      '@modern-js/prod-server': 2.48.0(react-dom@18.2.0)(react@18.2.0)
-      '@modern-js/types': 2.48.0
-      '@modern-js/utils': 2.48.0
-      '@rsbuild/babel-preset': 0.4.8
+      '@modern-js/babel-compiler': 2.43.0
+      '@modern-js/bff-core': 2.43.0(ts-node@10.9.1)(tsconfig-paths@4.2.0)
+      '@modern-js/plugin': 2.43.0
+      '@modern-js/prod-server': 2.43.0(react-dom@18.2.0)(react@18.2.0)
+      '@modern-js/types': 2.43.0
+      '@modern-js/utils': 2.43.0
+      '@rsbuild/babel-preset': 0.2.7
       '@swc/helpers': 0.5.3
       '@testing-library/jest-dom': 5.17.0
       '@testing-library/react': 13.4.0(react-dom@18.2.0)(react@18.2.0)
@@ -4247,16 +4028,9 @@ packages:
     dev: true
 
   /@modern-js/plugin@2.43.0:
-    resolution: {integrity: sha512-uiufEQRnm3XSXtE/kr6mSUkYrtk2/hnGwZ1Yxbad171OlE59CRgchPVVaZdxkZ/aEB7t4KvcSP4mbaQYlC3PGw==, tarball: https://registry.npmmirror.com/@modern-js/plugin/-/plugin-2.43.0.tgz}
+    resolution: {integrity: sha512-uiufEQRnm3XSXtE/kr6mSUkYrtk2/hnGwZ1Yxbad171OlE59CRgchPVVaZdxkZ/aEB7t4KvcSP4mbaQYlC3PGw==}
     dependencies:
       '@modern-js/utils': 2.43.0
-      '@swc/helpers': 0.5.3
-    dev: true
-
-  /@modern-js/plugin@2.48.0:
-    resolution: {integrity: sha512-XNH8hLjvwhuABHZTE548oIwMsGShEIVwL6CMpog38rldyzqqSpa8d7Y+RGCd+AsPP8VWzgI8zP82z8IpgSWQ8g==}
-    dependencies:
-      '@modern-js/utils': 2.48.0
       '@swc/helpers': 0.5.3
     dev: true
 
@@ -4286,20 +4060,19 @@ packages:
       - supports-color
     dev: true
 
-  /@modern-js/prod-server@2.48.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-lVd3mHCzg5IN5Tt4w6OAGNFjUSht/B7sI/mSIbvWOcS2SJupb8VTLb3hKTnauiPNSS7/Kp2Erl8fewGHO0X0tQ==}
+  /@modern-js/prod-server@2.43.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-vKhYHc7iyOrZvwv8HXecww4yYIQlyDM7A+GXbzHzgqaRI0PgNsyw3IJUTzOK65gv4ZZofeegwwRRLjeEuICXug==}
     dependencies:
-      '@modern-js/plugin': 2.48.0
-      '@modern-js/runtime-utils': 2.48.0(react-dom@18.2.0)(react@18.2.0)
-      '@modern-js/server-core': 2.48.0
-      '@modern-js/utils': 2.48.0
+      '@modern-js/plugin': 2.43.0
+      '@modern-js/runtime-utils': 2.43.0(react-dom@18.2.0)(react@18.2.0)
+      '@modern-js/server-core': 2.43.0
+      '@modern-js/utils': 2.43.0
       '@swc/helpers': 0.5.3
       cookie: 0.5.0
       etag: 1.8.1
       fresh: 0.5.2
       http-proxy-middleware: 2.0.6
       ignore-styles: 5.0.1
-      isbot: 3.8.0
       merge-deep: 3.0.3
       node-html-parser: 6.1.11
       path-to-regexp: 6.2.1
@@ -4332,8 +4105,8 @@ packages:
       serialize-javascript: 6.0.1
     dev: true
 
-  /@modern-js/runtime-utils@2.48.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-qVS1414A6QGddKXqy2rKvlXx6N38LrqRBzOLbi5TzrHs6cPKWR7nyxoIVdEtalqMb58o/QaVIfzjNj1xMkX9bQ==}
+  /@modern-js/runtime-utils@2.43.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-FO9Q+/aiYSbVSdfZvexUQurRhbl90qwJbV3+lHR6W1C01hjFAH4gnh7kymEgI2xsMcmZ6cXLVbqr1/rMcKZi3g==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -4343,13 +4116,13 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@modern-js/utils': 2.48.0
-      '@remix-run/router': 1.15.0
+      '@modern-js/utils': 2.43.0
+      '@remix-run/router': 1.10.0
       '@swc/helpers': 0.5.3
       lru-cache: 6.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router-dom: 6.22.0(react-dom@18.2.0)(react@18.2.0)
+      react-router-dom: 6.17.0(react-dom@18.2.0)(react@18.2.0)
       serialize-javascript: 6.0.1
     dev: true
 
@@ -4361,11 +4134,11 @@ packages:
       '@swc/helpers': 0.5.3
     dev: true
 
-  /@modern-js/server-core@2.48.0:
-    resolution: {integrity: sha512-XfzvzRjOU74fyu9WZ2qZ+cg0pR99XGF+JokyUJxbA9Hyv3TKupr1xecc65v5+uLGUfzno3ngNwcb5mF8BNPF6A==}
+  /@modern-js/server-core@2.43.0:
+    resolution: {integrity: sha512-Jdn6EbK1fnGQJKv+GRl7nxk9gex1+PMhus/dX/xycgEhfYeU7sgq1+yW7Xiic0nL2U5Bz9k1GUUh+KDrnSjT6w==}
     dependencies:
-      '@modern-js/plugin': 2.48.0
-      '@modern-js/utils': 2.48.0
+      '@modern-js/plugin': 2.43.0
+      '@modern-js/utils': 2.43.0
       '@swc/helpers': 0.5.3
     dev: true
 
@@ -4561,10 +4334,6 @@ packages:
     resolution: {integrity: sha512-lxIJmhnvV6UBqjsefRQf7AISLdkgEv2mmvsrmNEVoRgOhD4EHSSbBI7leUo80U6KogJt10MDJKn6J+6W6Rk8ng==, tarball: https://registry.npmmirror.com/@modern-js/tsconfig/-/tsconfig-2.43.0.tgz}
     dev: true
 
-  /@modern-js/tsconfig@2.48.0:
-    resolution: {integrity: sha512-92iVj5CNQyZuf1hPycvzh1Yrbelgkph4/nLelfPDNuZkJGwUPqLzaIO6w5Ic8CiKnivY/3MG710KWHIxOkIW8A==}
-    dev: true
-
   /@modern-js/types@2.42.0:
     resolution: {integrity: sha512-Uj0jHIcSGYwnve4WJ3rq6ApnfIodkJUJx8xgMjV+GOpN0QpsjcE7i1Tvn41uliLWGao1YlmjvnXMLQtYqImPmw==}
     dev: true
@@ -4574,11 +4343,7 @@ packages:
     dev: true
 
   /@modern-js/types@2.43.0:
-    resolution: {integrity: sha512-peKVkJi7kSCj3TIjWbwmdcDdopub1+HR8jby+l5PMH04lbbh+BlV3o/l+bFZiJm6b4Kw3qf+wZCyb9WwbaVX2Q==, tarball: https://registry.npmmirror.com/@modern-js/types/-/types-2.43.0.tgz}
-    dev: true
-
-  /@modern-js/types@2.48.0:
-    resolution: {integrity: sha512-92a9ov5AawgIxAXgAlg1JghYiwf82IcjKpcqrHPHUeCan6w1P6fMl6XMYuN/XhIPu6G8Qt+cLZFmfgqLxHyY6w==}
+    resolution: {integrity: sha512-peKVkJi7kSCj3TIjWbwmdcDdopub1+HR8jby+l5PMH04lbbh+BlV3o/l+bFZiJm6b4Kw3qf+wZCyb9WwbaVX2Q==}
     dev: true
 
   /@modern-js/upgrade@2.42.0:
@@ -4606,7 +4371,7 @@ packages:
     dev: true
 
   /@modern-js/upgrade@2.43.0:
-    resolution: {integrity: sha512-DCfJvRf1qTHcDqSB6orbLCiXIxgX0DdHuXBib/s0rqpw+YIPUp54LmlzbMekp1to68IO/8qSO6Oz3LmtWGL4ww==, tarball: https://registry.npmmirror.com/@modern-js/upgrade/-/upgrade-2.43.0.tgz}
+    resolution: {integrity: sha512-DCfJvRf1qTHcDqSB6orbLCiXIxgX0DdHuXBib/s0rqpw+YIPUp54LmlzbMekp1to68IO/8qSO6Oz3LmtWGL4ww==}
     hasBin: true
     dependencies:
       '@modern-js/codesmith': 2.3.2
@@ -4639,42 +4404,9 @@ packages:
     resolution: {integrity: sha512-VOz2401HLUohomZo8jRECOmPaC0REKxvgPp1lI1kHfQe/D4sIXKggy3S4Wpdf+P5YgZA8pIeTcXaKYC5fdsr7Q==, tarball: https://registry.npmmirror.com/@modern-js/utils/-/utils-2.43.0.tgz}
     dependencies:
       '@swc/helpers': 0.5.3
-      caniuse-lite: 1.0.30001566
+      caniuse-lite: 1.0.30001596
       lodash: 4.17.21
       rslog: 1.1.1
-    dev: true
-
-  /@modern-js/utils@2.48.0:
-    resolution: {integrity: sha512-zu5+rQRbkQfr6AJLF+t3UNJ1Rhrv5zHFL4ZW7urxbfgAuccoJ68U76rDA4LzDVwHMj314ENOaN62yrkELXx9Og==}
-    dependencies:
-      '@swc/helpers': 0.5.3
-      caniuse-lite: 1.0.30001566
-      lodash: 4.17.21
-      rslog: 1.1.1
-    dev: true
-
-  /@module-federation/runtime-tools@0.0.8:
-    resolution: {integrity: sha512-tqx3wlVHnpWLk+vn22c0x9Nv1BqdZnoS6vdMb53IsVpbQIFP70nhhvymHUyFuPkoLzMFidS7GpG58DYT/4lvCw==}
-    dependencies:
-      '@module-federation/runtime': 0.0.8
-      '@module-federation/webpack-bundler-runtime': 0.0.8
-    dev: true
-
-  /@module-federation/runtime@0.0.8:
-    resolution: {integrity: sha512-Hi9g10aHxHdQ7CbchSvke07YegYwkf162XPOmixNmJr5Oy4wVa2d9yIVSrsWFhBRbbvM5iJP6GrSuEq6HFO3ug==}
-    dependencies:
-      '@module-federation/sdk': 0.0.8
-    dev: true
-
-  /@module-federation/sdk@0.0.8:
-    resolution: {integrity: sha512-lkasywBItjUTNT0T0IskonDE2E/2tXE9UhUCPVoDL3NteDUSFGg4tpkF+cey1pD8mHh0XJcGrCuOW7s96peeAg==}
-    dev: true
-
-  /@module-federation/webpack-bundler-runtime@0.0.8:
-    resolution: {integrity: sha512-ULwrTVzF47+6XnWybt6SIq97viEYJRv4P/DByw5h7PSX9PxSGyMm5pHfXdhcb7tno7VknL0t2V8F48fetVL9kA==}
-    dependencies:
-      '@module-federation/runtime': 0.0.8
-      '@module-federation/sdk': 0.0.8
     dev: true
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
@@ -4706,11 +4438,6 @@ packages:
 
   /@remix-run/router@1.10.0:
     resolution: {integrity: sha512-Lm+fYpMfZoEucJ7cMxgt4dYt8jLfbpwRCzAjm9UgSLOkmlqo9gupxt6YX3DY0Fk155NT9l17d/ydi+964uS9Lw==}
-    engines: {node: '>=14.0.0'}
-    dev: true
-
-  /@remix-run/router@1.15.0:
-    resolution: {integrity: sha512-HOil5aFtme37dVQTB6M34G95kPM3MMuqSmIRVCC52eKV+Y/tGSqw9P3rWhlAx6A+mz+MoX+XxsGsNJbaI5qCgQ==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -4766,7 +4493,7 @@ packages:
     dev: true
 
   /@rsbuild/babel-preset@0.2.7:
-    resolution: {integrity: sha512-G8UrLOWzLti1jWdsYaxhXeOrjvs12u6tY2A085vSTAZy7vk8NzRJz9YDHhvFFbjPIl+mqWjMXdJ+LUhqyEnhJw==, tarball: https://registry.npmmirror.com/@rsbuild/babel-preset/-/babel-preset-0.2.7.tgz}
+    resolution: {integrity: sha512-G8UrLOWzLti1jWdsYaxhXeOrjvs12u6tY2A085vSTAZy7vk8NzRJz9YDHhvFFbjPIl+mqWjMXdJ+LUhqyEnhJw==}
     dependencies:
       '@babel/core': 7.23.5
       '@babel/plugin-proposal-decorators': 7.23.5(@babel/core@7.23.5)
@@ -4785,41 +4512,6 @@ packages:
       core-js: 3.32.2
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@rsbuild/babel-preset@0.4.8:
-    resolution: {integrity: sha512-xhHnLtGoXqoaeJsdj65RoY7nZZZ6zEpbxV2uYUMaznjoPqYwVsdFFVeQP4iFofXFqR1o1LP+tSSztC7YD+12bQ==}
-    dependencies:
-      '@babel/core': 7.23.5
-      '@babel/plugin-proposal-decorators': 7.23.5(@babel/core@7.23.5)
-      '@babel/plugin-proposal-export-default-from': 7.23.3(@babel/core@7.23.5)
-      '@babel/plugin-proposal-partial-application': 7.23.3(@babel/core@7.23.5)
-      '@babel/plugin-proposal-pipeline-operator': 7.23.3(@babel/core@7.23.5)
-      '@babel/plugin-transform-runtime': 7.23.4(@babel/core@7.23.5)
-      '@babel/preset-env': 7.23.5(@babel/core@7.23.5)
-      '@babel/preset-typescript': 7.23.3(@babel/core@7.23.5)
-      '@babel/runtime': 7.23.5
-      '@babel/types': 7.23.5
-      '@types/babel__core': 7.20.5
-      babel-plugin-dynamic-import-node: 2.3.3
-      core-js: 3.32.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@rsbuild/core@0.4.8:
-    resolution: {integrity: sha512-Qfu8FSZhoBT5qZgjdXTdByYpqOaruaWca6n1tixM3+cRvOkJwuC7W1ebUX2kqN8BxTCvJP/CdAUi2uftWNyTwA==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    dependencies:
-      '@rsbuild/shared': 0.4.8(@swc/helpers@0.5.3)
-      '@rspack/core': 0.5.5(@swc/helpers@0.5.3)
-      '@swc/helpers': 0.5.3
-      core-js: 3.32.2
-      html-webpack-plugin: /html-rspack-plugin@5.6.1(@rspack/core@0.5.5)
-      postcss: 8.4.35
-    transitivePeerDependencies:
-      - webpack
     dev: true
 
   /@rsbuild/plugin-babel@0.2.3:
@@ -4873,16 +4565,6 @@ packages:
       postcss: 8.4.31
     dev: true
 
-  /@rsbuild/shared@0.4.8(@swc/helpers@0.5.3):
-    resolution: {integrity: sha512-UYYCP5WmbgsNa06O5HOj8CZBD3lYU0EzoFvEtbtyjktaVO4jhQvuWYGA1RyEOyat6o8QkQU9i6RJlDh2yrS2Bg==}
-    dependencies:
-      '@rspack/core': 0.5.5(@swc/helpers@0.5.3)
-      caniuse-lite: 1.0.30001596
-      postcss: 8.4.35
-    transitivePeerDependencies:
-      - '@swc/helpers'
-    dev: true
-
   /@rspack/binding-darwin-arm64@0.4.3:
     resolution: {integrity: sha512-H/MW5oWawFY45OM+ePRELBueDlAusAMTaztn54AB1CRXyhLteyeX9luQv6+Fe1TDHeDfv27NL+eNTfO0+YJeZg==}
     cpu: [arm64]
@@ -4891,24 +4573,8 @@ packages:
     dev: true
     optional: true
 
-  /@rspack/binding-darwin-arm64@0.5.5:
-    resolution: {integrity: sha512-vmpfveZdmWJv0WUkcZSnSfcAJUpeaL5J+NYcLzOGDyKOFiyKQQ7ewls6G0kMse4USbW7XlaJJKQoR3Kq3enf1Q==}
-    cpu: [arm64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rspack/binding-darwin-x64@0.4.3:
     resolution: {integrity: sha512-m/XiTWbsrJ45sFTD+I3P9V7OT9sNx4+RW6PbS28n9yvPflrx5TX6r9WjFnFD6RJcPnt81hvO6oOE3LDO5LPvAw==}
-    cpu: [x64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-darwin-x64@0.5.5:
-    resolution: {integrity: sha512-1axw5PAgxEGyx1Tz8/VzBqmCUrSxFWAiJqKmxc6+sJsRixHb0/gIc/rg9zCOJBzAr1CNBsNqQIdrJT0usBagow==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
@@ -4924,27 +4590,11 @@ packages:
     dev: true
     optional: true
 
-  /@rspack/binding-linux-arm64-gnu@0.5.5:
-    resolution: {integrity: sha512-5HB8TejsTHN2/lOG0jzdUQnWZyg3dkuuIUiZUOnW3GgTIPqs02t4xDkPGDdwTfMtXz4+6iVUFR+4sx/LMG29EA==}
-    cpu: [arm64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rspack/binding-linux-arm64-musl@0.4.3:
     resolution: {integrity: sha512-VlqXmsgft9LeYxWm8bZB16f/SZE7xLaHgDwFR6KCFLhubPRnF7gvxLf/y8FAtZzV+9XDi7mhfLWHMyJJDqwFBQ==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-linux-arm64-musl@0.5.5:
-    resolution: {integrity: sha512-bIXziiMXMb5INje5LyPYmXcbreb6Lbifzs0oOlqIlVH3LFZC6tmxUMfHGZ39d3vm+MzBVEOuiHxzsrnczbv5EQ==}
-    cpu: [arm64]
-    os: [linux]
     requiresBuild: true
     dev: true
     optional: true
@@ -4958,14 +4608,6 @@ packages:
     dev: true
     optional: true
 
-  /@rspack/binding-linux-x64-gnu@0.5.5:
-    resolution: {integrity: sha512-CRR2PlZNi8115RnQIpUj7KsPU6ZEWziqd1mlgWCsQzYLOuq/15TvAKyscazVzi6g1X9b+8qY6Jo/6jJ0etbwiw==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rspack/binding-linux-x64-musl@0.4.3:
     resolution: {integrity: sha512-16PptmbtvpGHtEfbLoQjWjhBXOykdQRHXxn3RUTpkEXFbmhLnvnXbfmfSRoBuVNR+j0BqCrGiwweO43VBceJPg==}
     cpu: [x64]
@@ -4975,24 +4617,8 @@ packages:
     dev: true
     optional: true
 
-  /@rspack/binding-linux-x64-musl@0.5.5:
-    resolution: {integrity: sha512-Fo6QN32NYxEnIxjRjhEjDJeE9TJZWtqMDccsIXlu00JRfB4OniW5ESkCtT26oP5aJesB3cCh5PQo6HvRfJr/pw==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rspack/binding-win32-arm64-msvc@0.4.3:
     resolution: {integrity: sha512-q9Vsn9Glj6m24UQfXpxcirk5S8r1RmAShXxjF+yRrKqpOtq1IodLWWRZ85kQfJyfk9deAfVkpiqHdsoK54uqQQ==}
-    cpu: [arm64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-win32-arm64-msvc@0.5.5:
-    resolution: {integrity: sha512-xK6JGm3exvdtI2y+aJVqb3gkiq0GP+FuCXpEoWG5z3ASGLEx658Vx20OkD0BrAFodbx3/3k1Mlr3OCR5W9/lUg==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
@@ -5007,24 +4633,8 @@ packages:
     dev: true
     optional: true
 
-  /@rspack/binding-win32-ia32-msvc@0.5.5:
-    resolution: {integrity: sha512-n59X3BxZqipN8nBAgi7aHGX8MGA3mjgxylpGfamAAltMWNmrm6VUJbbdheI9cl+oPwazcf7alcB3R7bvXIOcjg==}
-    cpu: [ia32]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@rspack/binding-win32-x64-msvc@0.4.3:
     resolution: {integrity: sha512-tZySo3ZZptxjuR0DDYQWQATUf5ApdDH7lQBezum/q5kzKVFFHN963JnInPHEO1wUtNXaTWXcx31habZTBrse/A==}
-    cpu: [x64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-win32-x64-msvc@0.5.5:
-    resolution: {integrity: sha512-ssvI0O8e9pGIcXcu9ninvbjXYfotiEqIf7dxhb0xvllke/5jTkR3azF0up7TivFQJ2BpgIm8gVKGVJOufxaTOA==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -5045,20 +4655,6 @@ packages:
       '@rspack/binding-win32-x64-msvc': 0.4.3
     dev: true
 
-  /@rspack/binding@0.5.5:
-    resolution: {integrity: sha512-Y4jDzV0h9pjtq53nG7znyWWZipigMNjnsUjaH4th4hKBWCGvSx7iFt7p8cHoNhudNKi2XuEZr7KCWCQjhK8/yQ==}
-    optionalDependencies:
-      '@rspack/binding-darwin-arm64': 0.5.5
-      '@rspack/binding-darwin-x64': 0.5.5
-      '@rspack/binding-linux-arm64-gnu': 0.5.5
-      '@rspack/binding-linux-arm64-musl': 0.5.5
-      '@rspack/binding-linux-x64-gnu': 0.5.5
-      '@rspack/binding-linux-x64-musl': 0.5.5
-      '@rspack/binding-win32-arm64-msvc': 0.5.5
-      '@rspack/binding-win32-ia32-msvc': 0.5.5
-      '@rspack/binding-win32-x64-msvc': 0.5.5
-    dev: true
-
   /@rspack/core@0.4.3:
     resolution: {integrity: sha512-YKzOOt6v6vZZH15+HdwWbd7DdXdXIJLlYQdQ6jgrAK7/X+5qg99MUgsfra3k+MXXX0vWROOy8mM6/dBaaDb7tg==, tarball: https://registry.npmmirror.com/@rspack/core/-/core-0.4.3.tgz}
     engines: {node: '>=16.0.0'}
@@ -5073,32 +4669,6 @@ packages:
       json-parse-even-better-errors: 3.0.1
       neo-async: 2.6.2
       react-refresh: 0.14.0
-      tapable: 2.2.1
-      terminal-link: 2.1.1
-      watchpack: 2.4.0
-      webpack-sources: 3.2.3
-      zod: 3.22.4
-      zod-validation-error: 1.3.1(zod@3.22.4)
-    dev: true
-
-  /@rspack/core@0.5.5(@swc/helpers@0.5.3):
-    resolution: {integrity: sha512-fsYPOE6HIGMAol8TiNsstvC2QfCo1NLpagzhu9c/ptNKLxKGGjxXrQ3ekjXbtvHnPhLJbonN6nWHN2Ee3boDFA==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@swc/helpers': '>=0.5.1'
-    peerDependenciesMeta:
-      '@swc/helpers':
-        optional: true
-    dependencies:
-      '@module-federation/runtime-tools': 0.0.8
-      '@rspack/binding': 0.5.5
-      '@swc/helpers': 0.5.3
-      browserslist: 4.22.2
-      enhanced-resolve: 5.12.0
-      events: 3.3.0
-      graceful-fs: 4.2.10
-      json-parse-even-better-errors: 3.0.1
-      neo-async: 2.6.2
       tapable: 2.2.1
       terminal-link: 2.1.1
       watchpack: 2.4.0
@@ -7532,11 +7102,6 @@ packages:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
     dev: true
 
-  /events@3.3.0:
-    resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
-    engines: {node: '>=0.8.x'}
-    dev: true
-
   /execa@4.1.0:
     resolution: {integrity: sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==, tarball: https://registry.npmmirror.com/execa/-/execa-4.1.0.tgz}
     engines: {node: '>=10'}
@@ -8139,23 +7704,6 @@ packages:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
     dev: true
 
-  /html-rspack-plugin@5.6.1(@rspack/core@0.5.5):
-    resolution: {integrity: sha512-HxBMh931QBxzUAA12j4iPIK1yVgnQrz3ziU/CHU7hUWuolpCy+wcUgcn9Zy4YPsq8PisE9lSg2K8+3i0a//H8A==}
-    engines: {node: '>=10.13.0'}
-    peerDependencies:
-      '@rspack/core': 0.x || 1.x
-      webpack: ^5.20.0
-    peerDependenciesMeta:
-      '@rspack/core':
-        optional: true
-      webpack:
-        optional: true
-    dependencies:
-      '@rspack/core': 0.5.5(@swc/helpers@0.5.3)
-      lodash: 4.17.21
-      tapable: 2.2.1
-    dev: true
-
   /http-errors@2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
     engines: {node: '>= 0.8'}
@@ -8650,11 +8198,6 @@ packages:
 
   /isarray@2.0.5:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
-    dev: true
-
-  /isbot@3.8.0:
-    resolution: {integrity: sha512-vne1mzQUTR+qsMLeCBL9+/tgnDXRyc2pygLGl/WsgA+EZKIiB5Ehu0CiVTHIIk30zhJ24uGz4M5Ppse37aR0Hg==}
-    engines: {node: '>=12'}
     dev: true
 
   /isexe@2.0.0:
@@ -10299,15 +9842,6 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /postcss@8.4.35:
-    resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-    dev: true
-
   /preferred-pm@3.1.2:
     resolution: {integrity: sha512-nk7dKrcW8hfCZ4H6klWcdRknBOXWzNQByJ0oJyX97BOupsYD+FzLS4hflgEu/uPUEHZCuRfMxzCBsuWd7OzT8Q==}
     engines: {node: '>=10'}
@@ -10471,19 +10005,6 @@ packages:
       react-router: 6.17.0(react@18.2.0)
     dev: true
 
-  /react-router-dom@6.22.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-z2w+M4tH5wlcLmH3BMMOMdrtrJ9T3oJJNsAlBJbwk+8Syxd5WFJ7J5dxMEW0/GEXD1BBis4uXRrNIz3mORr0ag==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      react: '>=16.8'
-      react-dom: '>=16.8'
-    dependencies:
-      '@remix-run/router': 1.15.0
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.22.0(react@18.2.0)
-    dev: true
-
   /react-router@6.17.0(react@18.2.0):
     resolution: {integrity: sha512-YJR3OTJzi3zhqeJYADHANCGPUu9J+6fT5GLv82UWRGSxu6oJYCKVmxUcaBQuGm9udpWmPsvpme/CdHumqgsoaA==}
     engines: {node: '>=14.0.0'}
@@ -10491,16 +10012,6 @@ packages:
       react: '>=16.8'
     dependencies:
       '@remix-run/router': 1.10.0
-      react: 18.2.0
-    dev: true
-
-  /react-router@6.22.0(react@18.2.0):
-    resolution: {integrity: sha512-q2yemJeg6gw/YixRlRnVx6IRJWZD6fonnfZhN1JIOhV2iJCPeRNSH3V1ISwHf+JWcESzLC3BOLD1T07tmO5dmg==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      react: '>=16.8'
-    dependencies:
-      '@remix-run/router': 1.15.0
       react: 18.2.0
     dev: true
 
@@ -11064,7 +10575,7 @@ packages:
     dev: true
 
   /source-map@0.7.4:
-    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==, tarball: https://registry.npmmirror.com/source-map/-/source-map-0.7.4.tgz}
+    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
     engines: {node: '>= 8'}
     dev: true
 
