@@ -2,12 +2,9 @@ import {
   Recordable,
   postJSONRequest,
 } from '@cn-international-express-sdk/utils';
+import { One7feiaConfig } from './state';
 
-export interface One7feiaConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state';
 
 export class One7feia {
   public config: One7feiaConfig;
