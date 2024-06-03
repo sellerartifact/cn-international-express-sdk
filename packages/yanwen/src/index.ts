@@ -20,7 +20,7 @@ export class YanWen {
     const data = {
       waybillNumber: orderNumber,
     };
-    const res = await this.requestHelp<{
+    const res = await this.genRequest<{
       data: {
         base64String: string;
       };
@@ -29,7 +29,7 @@ export class YanWen {
     return buffer;
   }
 
-  async requestHelp<T>(action: string, reqData: Recordable = {}) {
+  async genRequest<T>(action: string, reqData: Recordable = {}) {
     const json: Recordable = {
       user_id: this.config.app_key,
       format: 'json',
