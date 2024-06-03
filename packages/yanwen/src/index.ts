@@ -4,18 +4,29 @@ import {
   Recordable,
   md5,
 } from '@cn-international-express-sdk/utils';
+import { YanWenConfig } from './state';
 
-export interface YanWenConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state';
 
 export class YanWen {
   public config: YanWenConfig;
 
   constructor(config: YanWenConfig) {
     this.config = config;
+  }
+
+  async printOrderNumber(orderNumber: string) {
+    const action = 'express.order.label.get';
+    const data = {
+      waybillNumber: orderNumber,
+    };
+    const res = await this.requestHelp<{
+      data: {
+        base64String: string;
+      };
+    }>(action, data);
+    const buffer = Buffer.from(res.data.base64String, 'base64');
+    return buffer;
   }
 
   async requestHelp<T>(action: string, reqData: Recordable = {}) {
