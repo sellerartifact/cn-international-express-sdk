@@ -3,12 +3,9 @@ import {
   postJSONRequest,
   Recordable,
 } from '@cn-international-express-sdk/utils';
+import { YuntuConfig } from './state';
 
-export interface YuntuConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state';
 
 export class Yuntu {
   public config: YuntuConfig;
