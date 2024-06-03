@@ -9,7 +9,7 @@ pnpm install --save cn-international-express-sdk
 
 OR
 
-pnpm install --save cn-international-express-sdk/fpx
+pnpm install --save @cn-international-express-sdk/fpx
 ```
 
 ### Usage
