@@ -1,10 +1,7 @@
 import { Recordable, postRequest } from '@cn-international-express-sdk/utils';
+import { ZhxtConfig } from './state';
 
-export interface ZhxtConfig {
-  app_key: string;
-  app_token: string;
-  base_url?: string;
-}
+export * from './state';
 
 export class Zhxt {
   public config: ZhxtConfig;
