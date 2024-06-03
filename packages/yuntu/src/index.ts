@@ -17,7 +17,7 @@ export class Yuntu {
   async genRequest<T>(
     method: 'POST' | 'GET',
     action: string,
-    sendData: Recordable,
+    sendData?: Recordable,
     timeout?: number,
   ): Promise<T> {
     const base_url_prefix =
@@ -31,7 +31,7 @@ export class Yuntu {
     };
     let res: any;
     if (method === 'POST') {
-      res = await postJSONRequest(base_url, sendData, headers, timeout);
+      res = await postJSONRequest(base_url, sendData || {}, headers, timeout);
     } else {
       let reqUrl = base_url;
       if (sendData) {
