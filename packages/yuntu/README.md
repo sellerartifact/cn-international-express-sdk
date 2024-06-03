@@ -32,7 +32,7 @@ const yuntu = new Yuntu({
 
 // create order
 
-await yuntu.genRequest<YuntuTypes.GetShipTypesRes>("POST", "WayBill/CreateOrder", sendData)
+await yuntu.genRequest<YuntuTypes.CreateOrderRes>("POST", "WayBill/CreateOrder", sendData)
 
 // get ship methods
 
