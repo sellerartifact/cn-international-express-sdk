@@ -2,12 +2,9 @@ import {
   Recordable,
   postJSONRequest,
 } from '@cn-international-express-sdk/utils';
+import { JieHangConfig } from './state';
 
-export interface JieHangConfig {
-  base_url?: string;
-  app_key: string;
-  app_token: string;
-}
+export * from './state';
 
 export class JieHang {
   public config: JieHangConfig;
