@@ -2,8 +2,8 @@
 export interface KtsConfig {
   app_key: string;
   app_token: string;
-  get_base_url: string;
-  post_base_url: string;
+  get_base_url?: string;
+  post_base_url?: string;
 }
 
 export namespace KtsTypes {
