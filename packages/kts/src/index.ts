@@ -4,19 +4,19 @@ import {
   myRequest,
   promiseSoap,
 } from '@cn-international-express-sdk/utils';
+import { KtsConfig, shipTypes } from './state';
 
-export interface KtsConfig {
-  app_key: string;
-  app_token: string;
-  get_base_url: string;
-  post_base_url: string;
-}
+export * from './state';
 
 export class Kts {
   private config: KtsConfig;
 
   constructor(config: KtsConfig) {
     this.config = config;
+  }
+
+  getShipTypes() {
+    return Promise.resolve(shipTypes);
   }
 
   async genRequest<T>(
