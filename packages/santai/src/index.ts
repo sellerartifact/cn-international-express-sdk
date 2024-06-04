@@ -1,8 +1,10 @@
+/* eslint-disable @typescript-eslint/prefer-for-of */
 import {
   Recordable,
   promiseSoap,
   promiseStrongSoap,
 } from '@cn-international-express-sdk/utils';
+import { JSDOM } from 'jsdom';
 import { SanTaiConfig } from './state';
 
 export * from './state';
@@ -35,13 +37,44 @@ export class SanTai {
         priceType: '1',
       },
     };
-    const result = await promiseStrongSoap(
+    const xml = await promiseStrongSoap<string>(
       this.url,
       'getRates',
       Object.assign(sendData, this.getCommonObj()),
       true,
     );
-    return result;
+    const DOM = new JSDOM(xml);
+    const { document } = DOM.window;
+    const aRates = document.querySelectorAll('rates');
+    const arr = [];
+    const keys = [
+      'totalfee',
+      'costfee',
+      'dealfee',
+      'regfee',
+      'addons',
+      'deliverytime',
+      'isweight',
+      'iftracking',
+      'classtype',
+      'classtypecode',
+      'shiptypecode',
+      'shiptypename',
+      'shiptypecnname',
+      'isbattery',
+    ];
+    for (let i = 0; i < aRates.length; i++) {
+      const tmp: Recordable = {};
+      for (let j = 0; j < keys.length; j++) {
+        tmp[keys[j]] = aRates[i].getAttribute(keys[j]);
+      }
+      arr.push(tmp);
+    }
+    arr.forEach(item => {
+      item.label = `${item.shiptypecnname}-${Number(item.totalfee).toFixed(2)}`;
+      item.value = item.shiptypecode;
+    });
+    return arr;
   }
 
   async genRequest<T>(action: string, sendData: Recordable) {
