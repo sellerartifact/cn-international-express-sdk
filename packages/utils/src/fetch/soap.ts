@@ -8,12 +8,13 @@ export function promiseStrongSoap<T>(
   url: string,
   action: string,
   obj: Recordable,
+  isRaw = false, // 是否返回原始数据
 ): Promise<T> {
   return new Promise(resolve => {
     strongSoap.createClient(url, {}, function (err: any, client: any) {
       const method = client[action];
       method(obj, (err: any, result: any, envelope: any) => {
-        resolve(parseXml(envelope));
+        resolve(isRaw ? envelope : parseXml(envelope));
       });
     });
   });

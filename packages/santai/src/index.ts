@@ -16,14 +16,14 @@ export class SanTai {
     this.config = config;
   }
 
-  async getRates(sendData: Recordable) {
-    const { country, state, zip_code } = sendData;
-    let { weight, length, width, height } = sendData;
+  async getRates(obj: Recordable) {
+    const { country, state, zip_code } = obj;
+    let { weight, length, width, height } = obj;
     width = width || '10';
     height = height || '10';
     length = length || '10';
     weight = weight || 1;
-    const obj = {
+    const sendData = {
       ratesRequestInfo: {
         country,
         state,
@@ -35,23 +35,31 @@ export class SanTai {
         priceType: '1',
       },
     };
-    const result = await promiseStrongSoap(this.url, 'getRates', obj);
+    const result = await promiseStrongSoap(
+      this.url,
+      'getRates',
+      Object.assign(sendData, this.getCommonObj()),
+      true,
+    );
     return result;
   }
 
   async genRequest<T>(action: string, sendData: Recordable) {
-    const commonObj = {
+    const res = await promiseSoap<T>(
+      this.url,
+      action,
+      Object.assign(sendData, this.getCommonObj()),
+    );
+    return res;
+  }
+
+  getCommonObj() {
+    return {
       HeaderRequest: {
         appKey: this.config.app_key,
         token: this.config.app_token,
         userId: this.config.user_id,
       },
     };
-    const res = await promiseSoap<T>(
-      this.url,
-      action,
-      Object.assign(sendData, commonObj),
-    );
-    return res;
   }
 }

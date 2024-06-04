@@ -1,6 +1,6 @@
 {
   "name": "@cn-international-express-sdk/santai",
-  "version": "3.0.2",
+  "version": "3.0.4",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -13,7 +13,7 @@
     "upgrade": "modern upgrade"
   },
   "dependencies": {
-    "@cn-international-express-sdk/utils": "workspace:*"
+    "@cn-international-express-sdk/utils": "^0.1.3"
   },
   "devDependencies": {
     "@modern-js/eslint-config": "2.42.0",
