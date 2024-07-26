@@ -16,7 +16,7 @@
     "**/node_modules": true
   },
   //
-  "editor.rulers": [80, 120],
+  "editor.rulers": [],
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
