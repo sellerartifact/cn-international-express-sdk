@@ -15,12 +15,12 @@ export class YiJingTong {
 
   async genRequest<T>(action: string, sendData: Recordable = {}): Promise<T> {
     const url =
-      (this.config.base_url || 'http://szy.kjwlxt.com/hwc_api/') + action;
+      (this.config.base_url || 'http://www.eastsunrisewarehouse.com/hwc_api/') +
+      action;
     const res = await postJSONRequest<T>(url, {
       token: this.config.app_token,
       ...sendData,
     });
-
     return res;
   }
 }
