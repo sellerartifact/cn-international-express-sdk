@@ -73,6 +73,10 @@
       "path": "packages/santai/"
     },
     {
+       "name": "yi_jing_tong",
+      "path": "packages/yi_jing_tong/"
+    },
+    {
       "name": "monorepo",
       "path": "."
     }
