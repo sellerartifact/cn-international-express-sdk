@@ -17,10 +17,13 @@ export class YiJingTong {
     const url =
       (this.config.base_url || 'http://www.eastsunrisewarehouse.com/hwc_api/') +
       action;
-    const res = await postJSONRequest<T>(url, {
-      token: this.config.app_token,
-      ...sendData,
-    });
+    const row = action.includes('add_order.php')
+      ? sendData
+      : {
+          token: this.config.app_token,
+          ...sendData,
+        };
+    const res = await postJSONRequest<T>(url, row);
     return res;
   }
 }
