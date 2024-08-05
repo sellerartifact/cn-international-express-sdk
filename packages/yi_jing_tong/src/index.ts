@@ -1,7 +1,4 @@
-import {
-  Recordable,
-  postJSONRequest,
-} from '@cn-international-express-sdk/utils';
+import { Recordable, myRequest } from '@cn-international-express-sdk/utils';
 import { YiJingTongConfig } from './state';
 
 export * from './state';
@@ -9,8 +6,11 @@ export * from './state';
 export class YiJingTong {
   private config: YiJingTongConfig;
 
-  constructor(config: YiJingTongConfig) {
+  private proxy: string;
+
+  constructor(config: YiJingTongConfig, proxy: string) {
     this.config = config;
+    this.proxy = proxy;
   }
 
   async genRequest<T>(action: string, sendData: Recordable = {}): Promise<T> {
@@ -23,7 +23,12 @@ export class YiJingTong {
           token: this.config.app_token,
           ...sendData,
         };
-    const res = await postJSONRequest<T>(url, row);
+    const res = await myRequest<T>({
+      url,
+      json: row,
+      method: 'POST',
+      proxy: this.proxy,
+    });
     return res;
   }
 }
