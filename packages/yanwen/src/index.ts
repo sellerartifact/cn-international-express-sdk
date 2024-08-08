@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/restrict-plus-operands */
+import crypto from 'crypto';
 import {
   postJSONRequest,
   Recordable,
@@ -59,5 +60,32 @@ export class YanWen {
       throw new Error(`燕文物流反馈:${res.message}`);
     }
     return res as any as T;
+  }
+
+  /**
+   * @description 解密燕文更新账单信息请求的数据
+   */
+  aesDecrypt(key: string, encryptedBase64: string) {
+    const initialDigest = crypto.createHash('sha1').update(key).digest();
+    const sKey = crypto
+      .createHash('sha1')
+      .update(initialDigest)
+      .digest()
+      .slice(0, 16);
+
+    // The IV is an empty string in this case, which is not used in ECB mode
+    const iv = '';
+
+    // Decode the base64 string
+    const encryptedBuffer = Buffer.from(encryptedBase64, 'base64');
+
+    // Decrypt the data
+    const decipher = crypto.createDecipheriv('aes-128-ecb', sKey, iv);
+    decipher.setAutoPadding(true);
+    // @ts-expect-error
+    const decrypted = decipher.update(encryptedBuffer, 'binary', 'utf8');
+    const decryptedJsonStr = decrypted + decipher.final('utf8');
+
+    return JSON.parse(decryptedJsonStr);
   }
 }
