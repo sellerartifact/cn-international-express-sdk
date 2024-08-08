@@ -6,9 +6,9 @@ export * from './state';
 export class YiJingTong {
   private config: YiJingTongConfig;
 
-  private proxy: string;
+  private proxy: string | undefined;
 
-  constructor(config: YiJingTongConfig, proxy: string) {
+  constructor(config: YiJingTongConfig, proxy?: string) {
     this.config = config;
     this.proxy = proxy;
   }
