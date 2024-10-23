@@ -46,3 +46,7 @@ await cainiao.genRequest<CaiNiaoTypes.AddOrderRes>("cnge.order.create", sendData
 await cainiao.getShipTypes()
 
 ```
+
+## 设置发件人地址
+
+去 https://b.cainiao.com/business/export/global/portal/admin/address/address-book 在基础设置里面地址管理里面设置发件人地址
