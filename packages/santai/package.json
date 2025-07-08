@@ -1,6 +1,6 @@
 {
   "name": "@cn-international-express-sdk/santai",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -13,7 +13,7 @@
     "upgrade": "modern upgrade"
   },
   "dependencies": {
-    "@cn-international-express-sdk/utils": "workspace:*",
+    "@cn-international-express-sdk/utils": "4.0.1",
     "@types/jsdom": "16.2.15",
     "jsdom": "16.4.0"
   },
