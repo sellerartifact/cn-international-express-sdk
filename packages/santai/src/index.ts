@@ -19,7 +19,7 @@ export class SanTai {
   }
 
   async getRates(obj: Recordable) {
-    const { country, state, zip_code } = obj;
+    const { country, state, zip_code, priceType } = obj;
     let { weight, length, width, height } = obj;
     width = width || '10';
     height = height || '10';
@@ -34,7 +34,7 @@ export class SanTai {
         length,
         width,
         height,
-        priceType: '1',
+        priceType: priceType || '1',
       },
     };
     const xml = await promiseStrongSoap<string>(

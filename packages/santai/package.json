@@ -1,6 +1,6 @@
 {
   "name": "@cn-international-express-sdk/santai",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
