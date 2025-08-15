@@ -2,6 +2,7 @@ import request from 'request';
 import { Recordable } from '../global';
 
 export * from './soap';
+export * from './xml';
 
 export function myRequest<T>(
   json: request.Options,
